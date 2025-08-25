@@ -15,4 +15,4 @@ jobs:
         username: ${{ secrets.FTP_USERNAME }}
         password: ${{ secrets.FTP_PASSWORD }}
         protocol: ftps
-        server-dir: /public_html/ligetildesign.dk
+        server.dir: /public_html/ligetildesign.dk
