@@ -10,7 +10,7 @@
 <body>
 <header>
     <nav>
-        <a href="/"><img src="<?php echo get_template_directory_uri(); ?>/images/ligetil_ny.png" alt="Lige Til Design logo"></a>
+        <a href="/"><img src="<?php echo get_template_directory_uri(); ?>/public_html/wp-content/themes/LigeTilDesign-Binto/images/ligetil_ny.png" alt="Lige Til Design logo"></a>
         
         <!-- Overlay -->
 <div id="myNav" class="overlay">
