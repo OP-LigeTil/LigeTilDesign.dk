@@ -150,6 +150,11 @@ p {
              -8px -8px 16px #0e0ee8;
 }
 
+.button-circle:active {
+     box-shadow:  inset 8px 8px 24px #121283,
+            inset -8px -8px 24px #1c1cc9;
+}
+
 .button-secondary {
     background-color: white;
     margin-top: 1.5rem; 
@@ -404,11 +409,20 @@ nav ul {
     background: #2121FB; 
     background: linear-gradient(147deg,rgba(33, 33, 251, 1) 0%, rgba(26, 26, 198, 1) 50%, rgba(20, 20, 149, 1) 96%);
     padding: 1.5rem 2rem;
-    color: white;   
+    color: white; 
+    transition: box-shadow 0.4s ease-in;  
 }
+
+ .hero-1:hover,  .hero-2:hover,  .hero-3:hover {
+    padding: 1.5rem 2rem 1.5rem 2.5rem;
+    box-shadow: 10px 10px 41px 0px rgba(0,0,0,1);
+    -webkit-box-shadow: 20px 50px 53px -13px rgba(0,0,0,0.100);
+    -moz-box-shadow: 20px 50px 53px -13px rgba(0,0,0,0.100);
+    }
 
 .hero-1 {
     width: 60%;
+    transition: 0.4s ease-in;
 }
 
 .hero-2 {
@@ -419,10 +433,16 @@ nav ul {
     background-position: center;
     background-repeat: no-repeat;
     background-position: bottom;
+    transition: 400ms;
+}
+
+.hero-2:hover {
+    background-size: auto 92%;
 }
 
 .hero-3 {
-    width: 20%; 
+    width: 20%;
+    transition: 0.4s ease-in; 
 }
 
 .hero-1-content {
@@ -435,7 +455,8 @@ nav ul {
 }
 
 .hero-3 p {
-    max-width: 150px; 
+    max-width: 150px;
+    transition: box-shadow 0.4s ease-in; 
 }
 
 .hero-action {
@@ -573,9 +594,11 @@ nav ul {
     min-width: 200px; 
     min-height: 100px; 
     box-sizing: border-box;
+    border-radius: 1rem;
     color: black;   
     background-color: #FDFDFD;
-    border-radius: 1rem;
+    text-align: center;
+    justify-content: center;
     transition: box-shadow 0.4s ease-in;
 }
 
@@ -981,9 +1004,9 @@ footer ul {
 
 .overlay .closebtn {
   position: absolute;
-  top: 20px;
-  right: 45px;
-  font-size: 60px;
+  top: 2rem;
+  right: 2rem;
+  font-size: 5rem;
 }
 
 /* When the height of the screen is less than 450 pixels, change the font-size of the links and position the close button again, so they don't overlap */
