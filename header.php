@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html <?php language_attributes(); ?>>
+<head>
+    <?php wp_head(); ?>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet">
+    <title>Lige Til Design </title>
+</head>
+<body>
+<header>
+    <nav>
+        <a href="/"><img src="<?php echo get_template_directory_uri(); ?>/images/ligetil_ny.png" alt="Lige Til Design logo"></a>
+        
+        <!-- Overlay -->
+<div id="myNav" class="overlay">
+
+  <!-- Button to close the overlay navigation -->
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+  <!-- Overlay content -->
+  <div class="overlay-content">
+    <?php
+        wp_nav_menu(
+            array(
+                'theme_location' => 'Hovedmenu',
+            )
+        );
+        ?>
+  </div>
+  <!-- Overlow end -->
+</div>
+<button class="button-menu" onClick="openNav()">
+
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 1000 1000">
+  <rect x="193.4" y="179.9" width="654.2" height="108.3"/>
+  <rect x="78.1" y="409.1" width="654.2" height="108.3"/>
+  <rect x="193.4" y="638.2" width="654.2" height="108.3"/>
+</svg>
+
+</button>
+
+    </nav>
+<?php wp_head(); ?>
+</header>
+

@@ -1,0 +1,1034 @@
+/* Generel */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+    width: 100%; 
+    height: auto; 
+}
+
+html {
+  margin-top: 0 !important;
+}
+
+body {
+    font-family: "Lexend", sans-serif;
+    background-color: #F1F0F0; 
+    padding: 0 1rem;
+    overflow-x: hidden;   
+}
+
+section {
+    margin-bottom: 8rem;
+}
+
+/* Responsive - tablet and mobile */ 
+
+@media only screen and (max-width: 940px) {
+    body {
+        margin: 0.1rem;
+    }
+}
+/* Generel - Text */
+
+h1 {
+    font-size: 3rem;
+    font-weight: 700; 
+    color: white;  
+    padding: 0; 
+    margin: 0; 
+}
+
+h2 {
+    font-size: 1.75rem;
+    font-weight: 400;
+    padding: 0 0 1rem 0;
+}
+
+.h2-XL {
+    font-size: 3rem;
+    font-weight: 400;
+    padding: 0 0 1rem 0;
+}
+
+.h-black {
+    color: black;
+}
+
+h3 {
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-bottom: 1rem;
+}
+
+h4 {
+    font-size: 1rem;
+    font-weight: lighter;
+}
+
+p {
+    font-size: 1.125rem;
+    line-height: 1.5rem;
+    font-weight: 200; 
+}
+
+#a-dark-background {
+    color: white; 
+}
+
+:Hover#a-dark-background {
+    color: grey; 
+}
+
+/* fonts responsive */ 
+@media only screen and (max-width: 940px) {
+    h1 {
+        font-size: 2.25rem;
+    }
+}
+
+/* Buttons */ 
+.button-primary {
+    font-family: "Lexend", sans-serif;
+    font-size: 1rem;
+    color: white;
+    border: 0;
+    margin-top: 2rem;   
+    padding: 1rem 2.5rem;
+    background: #0B0BBB;
+    box-shadow:  12px 12px 24px #121283,
+             -12px -12px 24px #1c1cc9;
+    border-radius: 0.5rem;
+    cursor: pointer;  
+}
+
+.button-primary:active {
+    color: #C2C2C2;
+     box-shadow:  inset 8px 8px 24px #121283,
+            inset -8px -8px 24px #1c1cc9;
+}
+
+.button-circle, .button-LinkedIn { 
+    align-self: flex-start;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    border-radius: 50%; 
+    cursor: pointer; 
+}
+
+.button-LinkedIn {
+    width: 3rem;
+    height: 3rem;
+    padding: 1rem;  
+    background-color: white;
+    color: black;
+}
+
+.button-LinkedIn:active {
+    box-shadow:  inset 8px 8px 24px #E4E4E4,
+                inset -8px -8px 24px #1c1cc9;
+}
+
+.button-circle {
+    width: 2.75rem; 
+    height: 2.75rem;
+    padding: 0.75rem; 
+    background-color: #0B0BBB;
+}
+
+.button-secondary {
+    background-color: white;
+    margin-top: 1.5rem; 
+    padding: 1rem 3rem;
+    border: 0; 
+    border-radius: 0.5rem;
+    cursor: pointer;
+    color: #121212; 
+    font-size: 1.125rem;
+    transition: 0.6s;
+}
+
+.button-secondary:hover {
+    background-color: #121283;
+    color: white;
+}
+
+.button-menu {
+    background-color: none;
+    font-size: 1rem;
+    border: 0; 
+}
+
+.button-menu svg {
+    width: 40px;
+}
+/* Components */ 
+
+ul.breadcrumbs {
+    list-style: none;
+    display: flex;
+    margin-bottom: 1rem;
+    font-weight: lighter; 
+}
+
+ul.breadcrumbs li+li:before {
+    content: "\00a0/\00a0";
+}
+
+.highlighted-text {
+    max-width: 700px;
+    padding: 8rem 0;
+    justify-self: center;
+    text-align: center;
+}
+
+@media only screen and (max-width: 940px) {
+.highlighted-text {
+    padding: 4rem 0;
+} 
+}
+
+/* Fonts */ 
+.template-LigeTil h1, .template-LigeTil h2 {
+    color: white; 
+    padding: 1rem; 
+}
+
+.template-LigeTil h1 {
+    font-size: 1rem;
+    font-weight: 200;
+    margin: 0; 
+    padding: 0 0 1rem 0; 
+}
+
+.template-LigeTil h2 {
+    max-width: 800px; 
+    margin: 0; 
+    padding: 0; 
+}
+
+/* Template LigeTil */ 
+
+.template-LigeTil {
+    width: 100%;
+    display: flex;
+    flex-direction: column; 
+    gap: 1rem; 
+    background-color: #F1F0F0;
+}
+
+.hero-template-LigeTil {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 250px; 
+    justify-content: center;
+    padding: 4rem 2rem;
+    border-radius: 1rem;
+    background-color: #2121FB;
+}
+
+.content-template-LigeTil {
+    width: 100%; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.content-template-LigeTil h2 {
+    color: #121212;
+    width: 400px;
+    margin-right: 200px;   
+}
+
+.content-template-LigeTil p {
+    max-width: 700px;  
+}
+
+.text-content-template-LigeTil {
+    width: 100%;
+    min-height: 250px;
+    display: flex; 
+    padding: 4rem;
+    margin: 0; 
+    border-radius: 1rem;
+    background-color: #FDFDFD;
+}
+
+.paragraph-content-template-LigeTil {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem; 
+}
+
+.paragraph-content-template-LigeTil ul {
+    font-size: 1.125rem;
+    line-height: 2rem;
+    font-weight: 200;
+    padding-left: 2rem; 
+}
+
+
+/* Template LigeTil responsive */ 
+@media only screen and (max-width: 940px) {
+
+    .hero-template-LigeTil  {
+        padding: 2rem;
+    }
+
+    .text-content-template-LigeTil {
+        flex-direction: column;
+        gap: 1rem; 
+        padding: 2rem;
+    }
+
+    .content-template-LigeTil h2 {
+        width: 100%; 
+    }
+}
+
+
+/* Text image two column */ 
+.text-img-double-column {
+    width: 100%;
+    min-height: 500px;  
+    display: flex;
+    border-radius: 1rem;
+    justify-content: space-between;
+    align-items: center; 
+    padding: 2rem 2rem 2rem 4rem;
+    background-color: #0B0BBB;
+    color: white; 
+}
+
+.first-text-img-double-column {
+    width: 60%;
+    max-width: 600px; 
+    align-content: space-between;
+}
+
+.second-text-img-double-column {
+    width: 40%;
+    height: auto;
+    margin-left: 4rem; 
+    overflow: hidden;  
+}
+
+.second-text-img-double-column img {
+    width: 100%; 
+    height: 100%;
+    border-radius: 1rem; 
+}
+
+/* Text image two column responsive*/
+@media only screen and (max-width: 940px) {
+    
+    .text-img-double-column {
+    flex-direction: column;
+    padding: 2.5rem 2rem;
+    gap: 2rem;  
+    }
+
+    .first-text-img-double-column {
+        width: 100%; 
+    }
+
+    .second-text-img-double-column {
+        width: 100%; 
+        margin: 0;
+    }
+
+    .second-text-img-double-column img {
+        width: 100%; 
+        max-height: 400px; 
+        object-fit: cover;
+        display: block;
+        margin: 0 auto;
+    }
+}
+
+
+/* Header */
+
+nav {
+    height: 85px; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;  
+}
+
+nav img {
+    width: 200px; 
+}
+
+nav ul {
+    list-style: none;
+    display: flex;  
+}
+
+/* FRONT PAGE /*
+/* Hero */
+
+.hero {
+    width: 100%;
+    min-height: 530px; 
+    display: flex; 
+    gap: 1rem; 
+}
+
+.hero-1, .hero-2, .hero-3 {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    justify-content: space-between;
+    border-radius: 1rem;
+    background: #2121FB; 
+    background: linear-gradient(147deg,rgba(33, 33, 251, 1) 0%, rgba(26, 26, 198, 1) 50%, rgba(20, 20, 149, 1) 96%);
+    padding: 1.5rem 2rem;
+    color: white;   
+}
+
+.hero-1 {
+    width: 60%;
+}
+
+.hero-2 {
+    width: 20%;
+    background: #1A1AC6;
+    background-image: url("images/OliverPanthera_Transparent.png");
+    background-size: auto 90%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.hero-3 {
+    width: 20%; 
+}
+
+.hero-1-content {
+    max-width: 600px; 
+    display: flex;
+    flex-direction: column;
+    margin-top: auto;
+    margin-bottom: auto;
+    gap: 1.5rem;
+}
+
+.hero-3 p {
+    max-width: 150px; 
+}
+
+.hero-action {
+    display: flex; 
+    justify-content: space-between;
+    margin-top: auto; 
+}
+
+/* Hero responsive */
+@media only screen and (max-width: 940px) {
+    .hero {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hero-1, .hero-2, .hero-3 {
+        box-sizing: border-box;
+        width: 100%;
+        padding: 1.5rem 2rem;  
+    }
+
+    .hero-2 {
+        height: 250px;
+        display: flex; 
+        flex-direction: row; 
+        justify-content: space-between;
+        align-items: flex-end;
+        background-size: 50% auto;    
+        background-position: center top; 
+        background-repeat: no-repeat; 
+    }
+
+    .hero-2 .button-circle, .hero-2 .button-LinkedIn {
+          align-self: auto;
+      }
+
+    .hero-3 {
+        flex-direction: row;
+    }
+
+    .hero-3-content {
+        max-width: 250px; 
+    }
+}
+
+/* Logobar */ 
+.logobar {
+    width: 100%;
+    padding: 1rem; 
+    justify-items: center;
+    margin-top: -6rem; 
+}
+
+.logobar ul {
+    list-style: none;
+    display: flex; 
+    flex-wrap: wrap;
+    gap: 2.5rem; 
+}
+
+.logobar img {
+    width: 20rem;
+    margin-top: 1rem;  
+}
+
+/* logobar responsive */ 
+@media only screen and (max-width: 940px) {
+    .logobar {
+        height: 100px;
+        width: 100%;  
+    }
+
+    .logobar ul {
+        display: flex;
+        flex-wrap: nowrap;
+        align-content: flex-start;
+        overflow: scroll;
+        scrollbar-width: none; 
+        -ms-overflow-style: none;  
+    }
+
+    .logobar ul::-webkit-scrollbar {
+        display: none; 
+    }
+
+    .logobar img {
+        width: 10rem; 
+    }
+}
+
+
+
+/* Text section single column */ 
+.text-single-column {
+    width: 100%;
+    box-sizing: border-box; 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+}
+
+.text-single-column-content {
+    max-width: 700px;
+    text-align: center;
+}
+
+.text-single-column h2 {
+    color: black; 
+}
+
+/* Blog bar */ 
+.blog-feed {
+    width: 100%;
+    margin-top: 2rem;  
+}
+
+.blog-feed a {
+    color: black;  
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+.blog-feed-content { 
+    display: grid; 
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-column-gap: 1rem;
+    grid-row-gap: 1rem;  
+}
+
+.blog-post {
+    min-width: 200px; 
+    min-height: 300px; 
+    box-sizing: border-box;
+    color: black;   
+    background-color: #FDFDFD;
+    border-radius: 1rem;
+    transition: box-shadow 0.4s ease-in;
+}
+
+.blog-post:hover {
+box-shadow: 2px 9px 53px -13px rgba(0,0,0,0.26);
+-webkit-box-shadow: 2px 9px 53px -13px rgba(0,0,0,0.26);
+-moz-box-shadow: 2px 9px 53px -13px rgba(0,0,0,0.26);
+}
+
+.blog-post img {
+    max-height: 200px;
+    object-fit: cover;
+    border-radius: 1rem 1rem 0 0;
+}
+
+.post h3 {
+     padding: 1rem; 
+}
+
+/* Kun blog oversigten */ 
+.blog-feed-content-blog-overview { 
+    display: grid; 
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-rows: 1fr;
+    grid-column-gap: 1.5rem;
+    grid-row-gap: 1.5rem;
+}
+
+
+
+/* Blog bar end */
+
+/* Services */ 
+.services {
+    width: 100%;
+    display: grid; 
+    grid-template-columns: 4fr 3fr 3fr;
+    grid-template-rows: auto auto; 
+    gap: 1.5rem; 
+}
+
+.services div {
+    background-color: #FDFDFD;
+    border-radius: 1rem;
+    padding: 2rem 1.5rem;
+    box-sizing: border-box; 
+}
+
+#grid_main {
+    grid-row-start: 1; 
+    grid-row-end: 3;
+    display: flex; 
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#grid_main_image {
+    max-width: 10rem;
+    align-self: flex-end;
+    padding: 1rem; 
+}
+
+#grid_main_text {
+    padding: 0; 
+}
+
+#grid_main h2 {
+    margin: 0; 
+}
+
+/* Services responsive */
+@media only screen and (max-width: 940px) {
+
+.services {
+    display: grid; 
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto auto auto; 
+}
+
+#grid_main_image {
+    max-width: 8rem;
+    align-self: flex-end;
+}
+
+}
+
+/* Footer */ 
+footer {
+    height: 300px;
+    margin: 2rem -1rem 0 -1rem;
+    padding: 4rem; 
+    display: flex; 
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #161616;
+    color: white; 
+}
+
+footer div {
+    display: flex;
+    align-items: center;
+}
+
+footer img {
+    width: 250px;
+    height: auto;
+    margin-right: 4rem;  
+}
+
+footer ul {
+    list-style-type: none; 
+    display: inline-flex;
+    gap: 4rem;  
+}
+
+/* Footer responsive */
+@media only screen and (max-width: 940px) {
+    footer {
+        height: auto; 
+        justify-content: center;
+    }
+
+    footer div {
+        flex-direction: column;
+        margin-top: 4rem; 
+    }
+
+    footer img {
+        margin: 0 0 4rem 0; 
+    }
+
+    footer ul {
+        flex-direction: column;
+        gap: 2rem;
+        text-align: center; 
+    }
+}
+
+/* Om Lige Til */ 
+.template-LigeTil #manifest {
+    margin: 0 auto; 
+}
+
+#manifest {
+    max-width: 800px; 
+    display: flex; 
+    flex-direction: column;
+    text-align: center;
+    gap: 1rem; 
+    padding: 2em; 
+}
+
+#manifest-p-grey {
+    color: grey;   
+}
+
+#manifest .h2-black {
+    color: black; 
+}
+
+
+
+
+/* Kontak side */ 
+
+.content-kontakt {
+    width: 100%;
+    min-height: 250px;
+    padding: 3rem 2rem;
+    margin: 0;
+    border-radius: 1rem;
+    background-color: #FDFDFD; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    text-align: center;
+}
+
+.content-kontakt h2 {
+    color: black; 
+}
+
+.content-kontakt p {
+    max-width: 800px; 
+}
+
+.calendly-inline-widget {
+    height: 1000px; 
+    width: 800px; 
+    margin-top: 2rem;
+}
+
+/* CASES */
+/* Cases - generelt */ 
+
+.case-post-hero {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    width: 100%;
+    min-height: 250px;
+    padding: 3rem 6rem 3rem 2rem; 
+    background-color: white;
+    border-radius: 1rem; 
+    margin-bottom: 2rem;
+}
+
+#case-tag {
+    color: #919191;
+}
+
+.case-post-hero-main { 
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between;
+}
+
+.case-post-hero-main h1 {
+    max-width: 700px;
+    color: #121212;
+    margin-top: 1rem;
+    margin-right: 2rem; 
+}
+
+.case-info {
+    margin-right: 2rem;
+}
+.case-post-hero-main ul {
+    list-style: none;
+    font-weight: 200;
+    font-size: 1.125rem;
+    line-height: 1.5rem;
+    font-weight: 200; 
+}
+
+
+/* Case post - TOC */
+
+.case-post-TOC {
+    margin-top: 2rem; 
+}
+
+.case-post-TOC ul {
+    list-style: none;
+    display: flex; 
+}
+
+.case-post-TOC ul li {
+    padding-right: 1rem;
+    color: #919191;
+    font-weight: 200;
+}
+
+.case-post-TOC ul li:hover {
+    padding-right: 1rem;
+    color: #0c1efb;
+    cursor: pointer; 
+}
+
+.case-post-image-full-width {
+    max-height: 500px;
+    object-fit: fill;
+    overflow: hidden; 
+    border-radius: 1rem;
+}
+
+/* Case gallery */ 
+.case-post-image-full-width-lower-height {
+    max-height: 350px; 
+    object-fit: fill;
+    overflow: hidden; 
+    border-radius: 0.5rem;
+    margin-top: 1rem;
+}
+
+.image-gallery-two {
+    width: 100%; 
+    display: grid; 
+    grid-template-columns: repeat(2, 1fr);
+    border-radius: 0.5rem;
+    gap: 2rem;
+    margin-top: 1rem; 
+}
+.image-gallery-two img {
+    width: 100%;
+    height: 450px;  
+    object-fit: cover; 
+    border-radius: 1rem;
+    box-sizing: border-box;
+}
+
+.image-gallery-three {
+    max-width: 100%; 
+    margin-top: 1rem; 
+    display: grid; 
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem; 
+}
+
+.image-gallery-three img {
+    width: 100%;
+    height: 450px; 
+    object-fit: cover;
+    border-radius: 1rem;
+}
+
+/* Cases Repsonsivt */ 
+@media only screen and (max-width: 940px) {
+    .case-post-hero {
+        flex-direction: column;
+        padding: 2rem 2rem;
+    }
+
+    .case-post-hero-main {
+        flex-direction: column;
+        overflow: hidden; 
+        gap: 1rem; 
+    }
+
+    .case-post-hero-main h1 {
+        width: 100%; 
+        padding-bottom: 2rem;
+    }
+
+    .case-post-hero-main p {
+        font-size: 1rem;
+    }
+    .case-info {
+        display: flex; 
+        flex-direction: row;
+        gap: 1rem; 
+        font-size: 1rem;
+    }
+
+   .case-post-hero-main ul, .case-post-hero-main ul li {
+        display: flex; 
+        flex-wrap: wrap;
+        gap: 1rem;
+        font-size: 1rem;
+    }
+
+    .case-post-TOC ul, .case-post-TOC li {
+        flex-wrap: wrap;
+        gap: 1rem; 
+        font-size: 1rem;
+    }
+}
+
+
+/* Overlay menu */ 
+.overlay {
+  width: 100%;
+  height: 0;
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  background-color: black; /* Black fallback color */
+  background-color: rgb(33,33,251); 
+  overflow-x: hidden; /* Disable horizontal scroll */
+  transition: 0.5s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
+  overflow: hidden;
+}
+
+/* Position the content inside the overlay */
+.overlay-content {
+  display: flex;
+  justify-content: center; 
+  position: relative;
+  top: 25%; /* 25% from the top */
+  width: 100%; /* 100% width */
+  margin: 2rem; /* 30px top margin to avoid conflict with the close button on smaller screens */
+  overflow: hidden;
+}
+
+.overlay-content::-webkit-scrollbar {
+  display: none;
+}
+
+/* The navigation links inside the overlay */
+.overlay a {
+  text-decoration: none;
+  font-size: 3rem;
+  line-height: 6rem;
+  color: rgba(255, 255, 255, 0.6);
+  transition: 0.3s;
+}
+
+.menu-hovedmenu-container ul#menu-hovedmenu {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  font-size: 3rem;
+  color: rgba(255, 255, 255, 0.6);
+  transition: 0.3s;
+}
+
+.menu-hovedmenu-container ul#menu-hovedmenu a:hover, .overlay a:focus {
+  color: #f1f1f1;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+/* When the height of the screen is less than 450 pixels, change the font-size of the links and position the close button again, so they don't overlap */
+@media screen and (max-height: 450px) {
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+    font-size: 2rem;
+    top: 1rem;
+    right: 3rem;
+  }
+}
+
+
+
+/* Blog post */ 
+.blog-post-hero {
+    width: 100%;
+    max-height: 420px;
+    overflow: hidden;  
+    object-fit: cover;
+    background-color:blue; 
+    position: relative;
+    z-index: -1;
+    border-radius: 1rem;
+    box-sizing: border-box;
+}
+
+.blog-post-content {
+    width: 1100px; 
+    display: flex; 
+    flex-direction: column;
+    justify-self: center;
+    align-items: center;
+    background-color: white; 
+    border-radius: 1rem;
+    padding: 3rem 6rem;
+    margin-top: -10rem;
+}
+
+.blog-post-content-top {
+    padding-bottom: 2rem;
+    text-align: center;
+}
+
+#blogdate {
+    font-size: 0.9rem;
+    color: #919191;
+    padding-top: 0.25rem;
+}
+
+.blog-post-content p {
+    font-size: 1.25rem;
+    line-height: 2rem;
+}
+
+.blog-post-content img {
+    width: 100%; 
+    height: auto; 
+}
