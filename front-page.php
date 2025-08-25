@@ -18,7 +18,7 @@ $image_two_column = get_field('image_two_column_text_image');
         </div>
         <div class="hero-action">
             <button class="button-primary">Kontakt</button>
-            <button class="button-LinkedIn"><img src=http://ligetildesign.dk/wp-content/uploads/2025/08/images/icons/linkedin-112.png" alt="Gå til min LinkedIn profil"></button>
+            <button class="button-LinkedIn"><img src="http://ligetildesign.dk/wp-content/uploads/2025/08/images/icons/linkedin-112.png" alt="Gå til min LinkedIn profil"></button>
         </div>
     </div>
     <div class="hero-2">
