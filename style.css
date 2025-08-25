@@ -414,7 +414,6 @@ nav ul {
 }
 
  .hero-1:hover,  .hero-2:hover,  .hero-3:hover {
-    padding: 1.5rem 2rem 1.5rem 2.5rem;
     box-shadow: 10px 10px 41px 0px rgba(0,0,0,1);
     -webkit-box-shadow: 20px 50px 53px -13px rgba(0,0,0,0.100);
     -moz-box-shadow: 20px 50px 53px -13px rgba(0,0,0,0.100);
@@ -437,12 +436,17 @@ nav ul {
 }
 
 .hero-2:hover {
+    width: 25%;
     background-size: auto 92%;
 }
 
 .hero-3 {
     width: 20%;
     transition: 0.4s ease-in; 
+}
+
+.hero-3:hover {
+    width: 25%;
 }
 
 .hero-1-content {
@@ -452,6 +456,11 @@ nav ul {
     margin-top: auto;
     margin-bottom: auto;
     gap: 1.5rem;
+    transition: 0.4s ease-in;
+}
+
+.hero-1-content:hover {
+    padding-left: 1rem;
 }
 
 .hero-3 p {
@@ -592,13 +601,12 @@ nav ul {
 
 .blog-post {
     min-width: 200px; 
-    min-height: 100px; 
+    min-height: 400px; 
     box-sizing: border-box;
     border-radius: 1rem;
     color: black;   
     background-color: #FDFDFD;
     text-align: center;
-    justify-content: center;
     transition: box-shadow 0.4s ease-in;
 }
 
