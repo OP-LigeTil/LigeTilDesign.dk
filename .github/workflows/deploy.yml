@@ -1,0 +1,24 @@
+name: 🚀 Deploy Website on push
+
+on:
+  push:
+    branches:
+      - main  # Workflow kører hver gang du pusher til main branch
+
+jobs:
+  web-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 🚚 Get latest code
+        uses: actions/checkout@v3
+
+      - name: 📂 Sync files via FTP
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.4
+        with:
+          server: ftp.ligetildesign.dk        # Dit FTP-servernavn fra Simply.com
+          username: ${{ secrets.FTP_USERNAME }}  # FTP brugernavn som GitHub Secret
+          password: ${{ secrets.FTP_PASSWORD }}  # FTP password som GitHub Secret
+          server-dir: /www/                   # Mappen på serveren hvor filerne skal ligge
+          local-dir: ./                        # Lokale mappe med koden, typisk root i repo
+          git-ftp-args: --insecure             # Valgfrit: hvis server har selvsigneret certifikat

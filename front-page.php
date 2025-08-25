@@ -22,7 +22,7 @@ $image_two_column = get_field('image_two_column_text_image');
         </div>
     </div>
     <div class="hero-2">
-            <h2>Om mig test 2</h2>
+            <h2>Om mig - virker det her virkelig?</h2>
             <button class="button-circle"><img src="<?php echo get_template_directory_uri(); ?>/images/icons/icon-arrow.png" alt="Arrow"></button>
     </div>
     <div class="hero-3">
