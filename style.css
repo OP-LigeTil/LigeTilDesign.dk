@@ -22,6 +22,10 @@ body {
     overflow-x: hidden;   
 }
 
+button {
+    border: 0;
+}
+
 section {
     margin-bottom: 8rem;
 }
@@ -96,12 +100,11 @@ p {
     font-family: "Lexend", sans-serif;
     font-size: 1rem;
     color: white;
-    border: 0;
-    margin-top: 2rem;   
+    border: 0;  
     padding: 1rem 2.5rem;
     background: #0B0BBB;
-    box-shadow:  12px 12px 24px #121283,
-             -12px -12px 24px #1c1cc9;
+    box-shadow:  8px 8px 16px #08088e,
+             -8px -8px 16px #0e0ee8;
     border-radius: 0.5rem;
     cursor: pointer;  
 }
@@ -121,12 +124,16 @@ p {
     cursor: pointer; 
 }
 
+
+
 .button-LinkedIn {
     width: 3rem;
     height: 3rem;
     padding: 1rem;  
     background-color: white;
     color: black;
+    box-shadow:  8px 8px 16px #08088e,
+             -8px -8px 16px #0e0ee8;
 }
 
 .button-LinkedIn:active {
@@ -139,6 +146,8 @@ p {
     height: 2.75rem;
     padding: 0.75rem; 
     background-color: #0B0BBB;
+    box-shadow:  8px 8px 16px #08088e,
+             -8px -8px 16px #0e0ee8;
 }
 
 .button-secondary {
@@ -167,6 +176,8 @@ p {
 .button-menu svg {
     width: 40px;
 }
+
+
 /* Components */ 
 
 ul.breadcrumbs {
@@ -459,7 +470,7 @@ nav ul {
         background-repeat: no-repeat; 
     }
 
-    .hero-2 .button-circle, .hero-2 .button-LinkedIn {
+    .hero-2 .button-circle, .hero-2  {
           align-self: auto;
       }
 
@@ -560,7 +571,7 @@ nav ul {
 
 .blog-post {
     min-width: 200px; 
-    min-height: 300px; 
+    min-height: 100px; 
     box-sizing: border-box;
     color: black;   
     background-color: #FDFDFD;
@@ -575,7 +586,7 @@ box-shadow: 2px 9px 53px -13px rgba(0,0,0,0.26);
 }
 
 .blog-post img {
-    max-height: 200px;
+    height: 200px;
     object-fit: cover;
     border-radius: 1rem 1rem 0 0;
 }

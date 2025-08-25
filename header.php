@@ -41,6 +41,6 @@
 </button>
 
     </nav>
-<?php wp_head(); ?>
+
 </header>
 

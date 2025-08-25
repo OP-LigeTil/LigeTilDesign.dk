@@ -18,19 +18,19 @@ $image_two_column = get_field('image_two_column_text_image');
         </div>
         <div class="hero-action">
             <button class="button-primary">Kontakt</button>
-            <button class="button-LinkedIn"><img src="<?php echo get_template_directory_uri(); ?>/images/icons/linkedin-112.png" alt="Gå til min LinkedIn profil"></button>
+            <button class="button-LinkedIn"><img src=http://ligetildesign.dk/wp-content/uploads/2025/08/images/icons/linkedin-112.png" alt="Gå til min LinkedIn profil"></button>
         </div>
     </div>
     <div class="hero-2">
             <h2>Om mig</h2>
-            <button class="button-circle"><img src="<?php echo get_template_directory_uri(); ?>/images/icons/icon-arrow.png" alt="Arrow"></button>
+            <button class="button-circle"><img src="http://ligetildesign.dk/wp-content/uploads/2025/08/icon-arrow.png" alt="Arrow"></button>
     </div>
     <div class="hero-3">
             <div class="hero-3-content">
                 <h2>Cases</h2>
                 <p>Happy clients, happy life</p>
             </div>
-            <button class="button-circle"><img src="<?php echo get_template_directory_uri(); ?>/images/icons/icon-arrow.png" alt="Arrow"></button>
+            <button class="button-circle"><img src="http://ligetildesign.dk/wp-content/uploads/2025/08/icon-arrow.png" alt="Arrow"></button>
     </div>
     </div>
 </section>
