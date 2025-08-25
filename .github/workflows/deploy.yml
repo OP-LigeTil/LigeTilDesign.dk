@@ -14,7 +14,8 @@ jobs:
         server: linux337.unoeuro.com
         username: ${{ secrets.FTP_USERNAME }}
         password: ${{ secrets.FTP_PASSWORD }}
-        protocol: ftp
+        protocol: ftps
         port: 21
         local-dir: ./
         server-dir: public_html/wp-content/themes/LigeTilDesign-Binto/
+        timeout: 60
