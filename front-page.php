@@ -14,7 +14,7 @@ $image_two_column = get_field('image_two_column_text_image');
         <div class="hero-1-content">
             <p><?php echo get_field('top_paragraph_front_page'); ?></p>
             <h1><?php echo get_field('headline_front_page'); ?></h1>
-            <p class="status"> Tilgængelig</p>
+            <p class="status"> Tilgængeliggggggggg</p>
         </div>
         <div class="hero-action">
             <button class="button-primary">Kontakt</button>
