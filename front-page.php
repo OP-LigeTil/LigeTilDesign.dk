@@ -23,14 +23,14 @@ $image_two_column = get_field('image_two_column_text_image');
     </div>
     <div class="hero-2">
             <h2>Om mig</h2>
-            <button class="button-circle"><img src="https://ligetildesign.dk/wp-content/uploads/2025/08/icon-arrow.png" alt="Arrow"></button>
+            <button class="button-circle"><img src="https://ligetildesign.dk/wp-content/uploads/2025/08/Icon-arrow.png" alt="Arrow"></button>
     </div>
     <div class="hero-3">
             <div class="hero-3-content">
                 <h2>Cases</h2>
                 <p>Happy clients, happy life</p>
             </div>
-            <button class="button-circle"><img src="http://ligetildesign.dk/wp-content/uploads/2025/08/icon-arrow.png" alt="Arrow"></button>
+            <button class="button-circle"><img src="https://ligetildesign.dk/wp-content/uploads/2025/08/Icon-arrow.png" alt="Arrow"></button>
     </div>
     </div>
 </section>
