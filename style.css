@@ -424,6 +424,11 @@ nav ul {
     transition: 0.4s ease-in;
 }
 
+.hero-1:hover {
+    width: 65%;
+    padding-left: 3rem;
+}
+
 .hero-2 {
     width: 20%;
     background: #1A1AC6;
@@ -457,10 +462,6 @@ nav ul {
     margin-bottom: auto;
     gap: 1.5rem;
     transition: 0.4s ease-in;
-}
-
-.hero-1-content:hover {
-    padding-left: 1rem;
 }
 
 .hero-3 p {

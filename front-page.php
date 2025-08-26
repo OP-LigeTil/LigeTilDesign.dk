@@ -17,13 +17,13 @@ $image_two_column = get_field('image_two_column_text_image');
             <p class="status"> Tilgængelig</p>
         </div>
         <div class="hero-action">
-            <button class="button-primary">Kontakt</button>
-            <button class="button-LinkedIn"><img src="https://ligetildesign.dk/wp-content/uploads/2025/08/linkedin-112.png" alt="Gå til min LinkedIn profil"></button>
+            <button class="button-primary" onClick="window.location.href='/kontakt">Kontakt</button>
+            <button class="button-LinkedIn" onclick="window.open('https://www.linkedin.com/in/oliver-panthera/', '_blank')"><img src="https://ligetildesign.dk/wp-content/uploads/2025/08/linkedin-112.png" alt="Gå til min LinkedIn profil"></a></button>
         </div>
     </div>
     <div class="hero-2">
             <h2>Om mig</h2>
-            <button class="button-circle"><img src="https://ligetildesign.dk/wp-content/uploads/2025/08/Icon-arrow.png" alt="Arrow"></button>
+            <button class="button-circle"onClick="window.location.href='/om-lige-til-design"><img src="https://ligetildesign.dk/wp-content/uploads/2025/08/Icon-arrow.png" alt="Arrow"></button>
     </div>
     <div class="hero-3">
             <div class="hero-3-content">
@@ -110,9 +110,9 @@ $image_two_column = get_field('image_two_column_text_image');
 <section class = "text-img-double-column">
         <div class= "first-text-img-double-column">
             <h2>Intuitivt design føles ligetil</h2>
-            <p>Med et utal af digitale platforme som brugeren springer imellem og lige så mange muligheder indenfor markedsføring, kan det være en labyrint at finde sin vej frem. Især at finde den vej, der fører til en sund, stabil virksomhed med masser af glade kunder. Dén vej hjælper jeg mine kunder med at finde. 
-
-Med afsæt i min viden om brugeradfærd, kommunikation og digital markedsføring får jeg virksomheder på rette spor og hjælper dem med at booste brugeroplevelsen på deres digitale platforme.</p>
+            <p>Med et utal af digitale platforme som brugeren springer imellem og lige så mange muligheder indenfor markedsføring, kan det være en labyrint at finde sin vej frem. Især at finde den vej, der fører til en sund, stabil virksomhed med masser af glade kunder. Dén vej hjælper jeg mine kunder med at finde.</p> 
+            
+            <p>Med afsæt i min viden om brugeradfærd, kommunikation og digital markedsføring får jeg virksomheder på rette spor og hjælper dem med at booste brugeroplevelsen på deres digitale platforme.</p>
         </div>
             <?php
              if( $image_two_column ) : ?>

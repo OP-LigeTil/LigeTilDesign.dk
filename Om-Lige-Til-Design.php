@@ -12,7 +12,7 @@ $image_two_column = get_field('image_two_column_text_image');
 
 <?php get_header(); ?>
 <main class= "template-LigeTil">
-<div class= "hero-template-LigeTil" style="background-image: url('https://ligetildesign.dk/wp-content/uploads/2025/08/OmLigeTil-background-img.png'); background-size: cover; background-repeat: no-repeat";>
+<div class= "hero-template-LigeTil">
     <h1><?php the_title(); ?> </h1>
     <h2><?php the_field('Hero_H2'); ?> </h2>
 </div>
