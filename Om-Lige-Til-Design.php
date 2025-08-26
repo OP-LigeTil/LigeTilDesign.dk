@@ -25,9 +25,9 @@ $image_two_column = get_field('image_two_column_text_image');
     <h2><?php the_field('h2_second_section'); ?> </h2>
     <p><?php the_field('paragraph_second_section'); ?> </p>
 </div>
-<div class="highlighted-text">
+</section>
+<section class="highlighted-text">
     <h3><?php the_field('highlighted_text'); ?></h3>
-</div>
 </section>
 
 <section class = "text-img-double-column">

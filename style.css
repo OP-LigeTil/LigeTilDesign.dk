@@ -198,9 +198,8 @@ ul.breadcrumbs li+li:before {
 
 .highlighted-text {
     max-width: 700px;
-    padding: 8rem 0;
-    justify-self: center;
     text-align: center;
+    margin: 0rem auto;
 }
 
 @media only screen and (max-width: 940px) {
@@ -320,6 +319,7 @@ ul.breadcrumbs li+li:before {
     justify-content: space-between;
     align-items: center; 
     padding: 2rem 2rem 2rem 4rem;
+    margin-top: 8rem;
     background-color: #0B0BBB;
     color: white; 
 }
