@@ -17,16 +17,15 @@ $image_two_column = get_field('image_two_column_text_image');
             <p class="status"> Tilgængelig</p>
         </div>
         <div class="hero-action">
-            <button class="button-primary" onClick="window.location.href='/kontakt">Kontakt</button>
-            <button class="button-LinkedIn" onclick="window.open('https://www.linkedin.com/in/oliver-panthera/', '_blank')"><img src="https://ligetildesign.dk/wp-content/uploads/2025/08/linkedin-112.png" alt="Gå til min LinkedIn profil"></a></button>
+            <a href="/kontakt"><button class="button-primary">Kontakt</button></a>
+            <a href="https://www.linkedin.com/in/oliver-panthera/" target="_blank"><button class="button-LinkedIn"><img src="https://ligetildesign.dk/wp-content/uploads/2025/08/linkedin-112.png" alt="Gå til min LinkedIn profil"></a></button>
         </div>
     </div>
-    <div class="hero-2">
+    <div class="hero-2" onclick="window.location.href='/om-lige-til-design'" target="_self">
             <h2>Om mig</h2>
-            <button class="button-circle"onClick="window.location.href='/om-lige-til-design"><img src="https://ligetildesign.dk/wp-content/uploads/2025/08/Icon-arrow.png" alt="Arrow"></button>
-    
+            <a href ="/om-lige-til-design", target="_self"><button class="button-circle"><img src="https://ligetildesign.dk/wp-content/uploads/2025/08/Icon-arrow.png" alt="Arrow"></button></a>
     </div>
-    <div class="hero-3">
+    <div class="hero-3" onclick="window.location.href='/cases'" target="_self">
             <div class="hero-3-content">
                 <h2>Cases</h2>
                 <p>Happy clients, happy life</p>

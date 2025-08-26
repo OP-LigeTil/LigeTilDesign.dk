@@ -452,6 +452,7 @@ nav ul {
 .hero-2:hover {
     width: 25%;
     background-size: auto 92%;
+    cursor: pointer;
 }
 
 .hero-3 {
@@ -461,6 +462,7 @@ nav ul {
 
 .hero-3:hover {
     width: 25%;
+    cursor: pointer;
 }
 
 .hero-1-content {
