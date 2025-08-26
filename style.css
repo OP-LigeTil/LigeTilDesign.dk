@@ -50,7 +50,7 @@ h1 {
 h2 {
     font-size: 1.75rem;
     font-weight: 400;
-    padding: 0 0 1rem 0;
+    padding: 0 0 1.5rem 0;
 }
 
 .h2-XL {
@@ -75,8 +75,8 @@ h4 {
 }
 
 p {
-    font-size: 1.125rem;
-    line-height: 1.5rem;
+    font-size: 1.2rem;
+    line-height: 1.7rem;
     font-weight: 200; 
 }
 
@@ -202,6 +202,10 @@ ul.breadcrumbs li+li:before {
     margin: 0rem auto;
 }
 
+.highlighted-text h3 {
+    margin: 0;
+}
+
 @media only screen and (max-width: 940px) {
 .highlighted-text {
     padding: 4rem 0;
@@ -247,6 +251,7 @@ ul.breadcrumbs li+li:before {
     padding: 4rem 2rem;
     border-radius: 1rem;
     background-color: #2121FB;
+    background-image: url("images/OmLigeTil-background-img.png");
 }
 
 .content-template-LigeTil {
@@ -328,6 +333,10 @@ ul.breadcrumbs li+li:before {
     width: 60%;
     max-width: 600px; 
     align-content: space-between;
+}
+
+.first-text-img-double-column h2 {
+    padding-bottom: 1.5rem;
 }
 
 .second-text-img-double-column {
@@ -748,28 +757,49 @@ footer ul {
 }
 
 /* Om Lige Til */ 
-.template-LigeTil #manifest {
-    margin: 0 auto; 
-}
+
 
 #manifest {
     max-width: 800px; 
+    height: 500px;
     display: flex; 
     flex-direction: column;
     text-align: center;
     gap: 1rem; 
-    padding: 2em; 
+    padding: 2em;
+    margin: 0 auto 6rem auto;
+    transition: 0.4s ease-in;
 }
 
 #manifest-p-grey {
     color: grey;   
 }
 
-#manifest .h2-black {
-    color: black; 
+#manifest .h-black {
+    color: #121212;
+    transition: 0.4s ease-in;
+    text-align: center;
 }
 
+#manifest p {
+    color: #121212;
+    transition: 0.4s ease-in;
+}
 
+#manifest:hover {
+    max-width: 800px;
+    .h-black {
+    font-size: 1.75rem;
+    text-align: center;
+    padding: 0;
+    color: #2121FB
+    }
+    p {
+    font-size: 1.25rem;
+    line-height: 2rem;
+    color: #2121FB
+    }
+}
 
 
 /* Kontak side */ 

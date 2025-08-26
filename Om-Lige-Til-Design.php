@@ -44,7 +44,7 @@ $image_two_column = get_field('image_two_column_text_image');
 </section>
 <section id="manifest">
     <p id="manifest-p-grey">Oliver Panthera // Lige Til Design </p>
-    <h2 class="h2-black">Manifest</h2>
+    <h3 class="h-black">Manifest</h3>
     <p>Livet er ikke lige til. Det samme gælder det at arbejde i et kreativt fag som design og marketing kan beskrives som. Derfor har jeg lavet et manifest, som alt mit arbejde laves udfra. <br><br>
                 1. Feedback, inputs og kritik på arbejdsopgaver er altid velkommen.<br>
                 2. Faglighed skal altid respekteres og vægtes højere end synsninger.<br>
