@@ -110,9 +110,12 @@ $image_two_column = get_field('image_two_column_text_image');
 <section class = "text-img-double-column">
         <div class= "first-text-img-double-column">
             <h2>Intuitivt design føles ligetil</h2>
-            <p>Med et utal af digitale platforme som brugeren springer imellem og lige så mange muligheder indenfor markedsføring, kan det være en labyrint at finde sin vej frem. Især at finde den vej, der fører til en sund, stabil virksomhed med masser af glade kunder. Dén vej hjælper jeg mine kunder med at finde.</p> 
-            
-            <p>Med afsæt i min viden om brugeradfærd, kommunikation og digital markedsføring får jeg virksomheder på rette spor og hjælper dem med at booste brugeroplevelsen på deres digitale platforme.</p>
+            <p>Vi mennesker springer mellem et utal af digitale platforme hver dag. Det sætter krav til dig som virksomhedsejer, der gerne vil fange og fastholde din målgruppes opmærksomhed og få dem til at lægge deres hårdt optjente kroner ved dig. </p>
+
+            <p> Jeg hjælper virksomheder med at gøre jeres målgruppes brugerrejse mere Lige Til. Det giver gladere kunder, mere omsætning og en mere stabil grund for din virksomhed at stå på.</p>
+
+            <p>Men at få noget til at føles Lige Til er ikke bare Lige Til. Det kræver viden omkring brugeradfærd, digitale platforme og kommunikation. Den viden har jeg tilegnet mig igennem flere år i marketing branchen og 3 år som freelance UX’er.</p>
+
         </div>
             <?php
              if( $image_two_column ) : ?>
