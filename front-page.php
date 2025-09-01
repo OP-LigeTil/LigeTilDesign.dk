@@ -110,10 +110,10 @@ $image_two_column = get_field('image_two_column_text_image');
 <section class = "text-img-double-column">
         <div class= "first-text-img-double-column">
             <h2>Intuitivt design føles ligetil</h2>
-            <p>Vi mennesker springer mellem et utal af digitale platforme hver dag. Det sætter krav til dig som virksomhedsejer, der gerne vil fange og fastholde din målgruppes opmærksomhed og få dem til at lægge deres hårdt optjente kroner ved dig. </p>
-
+            <p>Vi mennesker springer mellem et utal af digitale platforme hver dag. Det sætter krav til dig som virksomhedsejer, der gerne vil fange og fastholde din målgruppes opmærksomhed og få dem til at lægge deres hårdt optjente kroner ved dig.</p>
+            <br>
             <p> Jeg hjælper virksomheder med at gøre jeres målgruppes brugerrejse mere Lige Til. Det giver gladere kunder, mere omsætning og en mere stabil grund for din virksomhed at stå på.</p>
-
+            <br>
             <p>Men at få noget til at føles Lige Til er ikke bare Lige Til. Det kræver viden omkring brugeradfærd, digitale platforme og kommunikation. Den viden har jeg tilegnet mig igennem flere år i marketing branchen og 3 år som freelance UX’er.</p>
 
         </div>
