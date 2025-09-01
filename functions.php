@@ -38,3 +38,36 @@ add_theme_support('post-thumbnails', array(
 'page',
 'custom-post-type-name',
 ));
+
+/* Post type til cases */
+function cases_post_type() {
+    $args = array(
+        'labels' => array(
+            'name' => 'Cases',
+            'has_archive' => true,
+            'singular_name' => 'Case',
+        ),
+        'public' => true,
+        'supports' => array('title', 'thumbnail', 'excerpt')
+    );
+    register_post_type('cases', $args);
+
+}
+
+add_action('init', 'cases_post_type');
+
+function cases_taxonomy() {
+    $args = array(
+        'labels' => array(
+            'name' => 'Type',
+            'singular_name' => 'Type',
+        ),
+
+        'public' => true,
+        'hierarchical' => true,
+    );
+
+    register_taxonomy('type', 'cases', $args);
+}
+
+add_action('init', 'cases_taxonomy');

@@ -88,20 +88,20 @@ $image_two_column = get_field('image_two_column_text_image');
         </div>
     </div>
     <div>
-        <h3>UX- og digital design</h3>
-        <p>Design af hjemmesider, apps og digitale platforme med fokus på brugerbehov og forretningsmål – pakket ind i lækkert design.</p>
+        <h3>User Experience (UX)</h3>
+        <p>Kortlægning af brugerrejser og analyse af, hvordan du kan optimere din platform til fordel for både brugere og din bagvedliggende forretning.</p>
     </div>
     <div>
-        <h3>UX- og digital design</h3>
-        <p>Design af hjemmesider, apps og digitale platforme med fokus på brugerbehov og forretningsmål – pakket ind i lækkert design.</p>
+        <h3>Digital design (UI)</h3>
+        <p>Design af hjemmesider, digitale platforme og apps. Altid brugervenligt, altid responsivt og altid gjort nemt for udviklerne at arbejde med.</p>
     </div>
     <div>
-        <h3>UX- og digital design</h3>
-        <p>Design af hjemmesider, apps og digitale platforme med fokus på brugerbehov og forretningsmål – pakket ind i lækkert design.</p>
+        <h3>Brandidentiteter og grafisk design</h3>
+        <p>Jeg laver glædeligt alt fra komplette brandidentiteter og logoer til opsætning af bøger, flyers, visitkort og annoncer til digital markedsføring.</p>
     </div>
     <div>
-        <h3>UX- og digital design</h3>
-        <p>Design af hjemmesider, apps og digitale platforme med fokus på brugerbehov og forretningsmål – pakket ind i lækkert design.</p>
+        <h3>Marketing</h3>
+        <p>For både B2C og B2B kan jeg levere marketingstrategier og eksekvere på dem, fx med Meta annoncering, organiske opslag, contentproduktion mv.</p>
     </div>
 </section>
 <!-- Services end --> 
