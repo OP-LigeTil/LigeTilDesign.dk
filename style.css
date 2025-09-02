@@ -1091,6 +1091,7 @@ footer ul {
     overflow: hidden;  
     object-fit: cover;
     position: relative;
+    background-color: red;
     z-index: -1;
     border-radius: 1rem;
     box-sizing: border-box;
