@@ -13,7 +13,7 @@ $image_two_column = get_field('image_two_column_text_image');
 <?php get_header(); ?>
 <body>
 <main class="template-LigeTil">
-    <div class= "hero-template-LigeTil" style="background-image: url('<?php echo get_template_directory_uri(); ?>/images/OmLigeTil-background-img.png'); background-size: cover; background-repeat: no-repeat";>
+    <div class= "hero-template-LigeTil">
         <h1><?php the_title(); ?></h1>
         <h2>Lad os tage en snak om dit projekt</h2> 
     </div>
