@@ -1169,7 +1169,7 @@ footer a {
     .blog-post-content {
         margin: -10rem 2rem 0 2rem;
         padding: 3rem 1rem;
-        background-color: red;
+        align-self: center;
     }
 
     .blog-post-content h1 {
