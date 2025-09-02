@@ -651,7 +651,6 @@ box-shadow: 2px 9px 53px -13px rgba(0,0,0,0.26);
     width: 100%; 
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    /* grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); */
     grid-template-rows: 1fr;
     grid-column-gap: 1.5rem;
     grid-row-gap: 1.5rem;
@@ -1095,7 +1094,7 @@ footer ul {
     overflow: hidden;  
     object-fit: cover;
     position: relative;
-    background-color: red;
+    background-color: #2121FB;
     z-index: -1;
     border-radius: 1rem;
     box-sizing: border-box;
@@ -1111,6 +1110,10 @@ footer ul {
     border-radius: 1rem;
     padding: 3rem 6rem;
     margin-top: -10rem;
+}
+
+.blog-post-content p {
+    margin-bottom: 1rem;
 }
 
 .blog-post-content-top {

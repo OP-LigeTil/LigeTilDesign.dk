@@ -1,7 +1,6 @@
 <?php get_header(); ?>
 
 <main>
-    <div><p>HELLO</p></div> 
 <section class="blog-post-hero">
     <img src="<?php the_post_thumbnail_url();?>">
 </section>
