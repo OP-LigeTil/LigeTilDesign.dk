@@ -585,6 +585,7 @@ nav ul {
 .text-single-column-content {
     max-width: 700px;
     text-align: center;
+    gap: 1rem;
 }
 
 .text-single-column h2 {
