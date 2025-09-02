@@ -1090,7 +1090,6 @@ footer ul {
     max-height: 420px;
     overflow: hidden;  
     object-fit: cover;
-    background-color:blue; 
     position: relative;
     z-index: -1;
     border-radius: 1rem;
