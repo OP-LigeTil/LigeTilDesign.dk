@@ -67,7 +67,7 @@ $image_two_column = get_field('image_two_column_text_image');
         <div class= "blog-post">
             <div class="post">
                 <a href="<?php echo get_permalink($post->ID); ?>" ><?php the_post_thumbnail(); ?></a>
-                <h3><a href="<?php echo get_permalink($post->ID); ?>" ><?php echo wp_trim_words ($post->post_title, 10, '...'); ?></a></h3>
+                <h3><a href="<?php echo get_permalink($post->ID); ?>" ><?php echo wp_trim_words ($post->post_title, 6, '...'); ?></a></h3>
             </div>
         </div>
         <?php endforeach; ?>
