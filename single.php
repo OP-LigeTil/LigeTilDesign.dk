@@ -9,7 +9,7 @@
         <h1 class="h-black"><?php the_title();?></h1>
         <p id="blogdate"><?php echo get_the_date('d M. o');?></p>
     </div>
-    <div class= "blog-post-content-bottom">
+    <div class="blog-post-content-bottom">
     <?php echo the_content();?>
     </div>
 
