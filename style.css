@@ -497,6 +497,7 @@ nav ul {
         height: auto;
         display: flex;
         flex-direction: column;
+        pointer-events: none;
     }
 
     .hero-1, .hero-2, .hero-3 {
@@ -511,9 +512,13 @@ nav ul {
         flex-direction: row; 
         justify-content: space-between;
         align-items: flex-end;
-        background-size: 90% auto;    
+        background-size: 50% auto;    
         background-position: 50% 20%;
         background-repeat: no-repeat; 
+    }
+
+    .hero-2 h2 {
+        padding: 0;
     }
 
     .hero-2 .button-circle, .hero-2  {
@@ -534,7 +539,7 @@ nav ul {
     width: 100%;
     padding: 1rem; 
     justify-items: center;
-    margin-top: -6rem; 
+    margin-top: -6rem auto 0 auto; 
 }
 
 .logobar ul {
