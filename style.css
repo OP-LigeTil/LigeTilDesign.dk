@@ -1112,13 +1112,17 @@ footer ul {
     margin-top: -10rem;
 }
 
+.blog-post-content-top {
+    padding-bottom: 2rem;
+    text-align: center;
+}
+
 .blog-post-content p {
     margin-bottom: 1rem;
 }
 
-.blog-post-content-top {
-    padding-bottom: 2rem;
-    text-align: center;
+.blog-post-content-bottom {
+    justify-content: flex-start;
 }
 
 #blogdate {
