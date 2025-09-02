@@ -487,7 +487,7 @@ nav ul {
 .hero-action {
     display: flex; 
     justify-content: space-between;
-    margin-top: auto; 
+    margin-top: 2rem;
 }
 
 /* Hero responsive */
@@ -511,8 +511,8 @@ nav ul {
         flex-direction: row; 
         justify-content: space-between;
         align-items: flex-end;
-        background-size: 50% auto;    
-        background-position: center top; 
+        background-size: 90% auto;    
+        background-position: 50% 20%;
         background-repeat: no-repeat; 
     }
 
@@ -758,6 +758,11 @@ footer ul {
     list-style-type: none; 
     display: inline-flex;
     gap: 4rem;  
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
 }
 
 /* Footer responsive */
