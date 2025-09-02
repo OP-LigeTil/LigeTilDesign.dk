@@ -32,7 +32,7 @@ $image_two_column = get_field('image_two_column_text_image');
 
 <section class = "text-img-double-column">
         <div class= "first-text-img-double-column">
-            <h2><?php the_field('Headline_two-column-text-image'); ?></h2>
+            <h2><?php the_field('headline_two-column-text-image'); ?></h2>
             <p><?php the_field('paragraph_two-column-text-image'); ?></p>
         </div>
             <?php
@@ -45,12 +45,12 @@ $image_two_column = get_field('image_two_column_text_image');
 <section id="manifest">
     <p id="manifest-p-grey">Oliver Panthera // Lige Til Design </p>
     <h3 class="h-black">Manifest</h3>
-    <p>Livet er ikke lige til. Det samme gælder det at arbejde i et kreativt fag som design og marketing kan beskrives som. Derfor har jeg lavet et manifest, som alt mit arbejde laves udfra. <br><br>
+    <p>Når du samarbejder med mig, skal du vide, at jeg har nogle klare værdier jeg arbejder ud fra. Dem har jeg formuleret som et manifest her: <br><br>
                 1. Feedback, inputs og kritik på arbejdsopgaver er altid velkommen.<br>
                 2. Faglighed skal altid respekteres og vægtes højere end synsninger.<br>
-                3. De bedste projekter er et resultat af nysgerrighed, ærlighed og lydhørhed.<br>
-                4. Der er ingen grund til ikke at være ambitiøs!<br>
-                5. Arbejde er ikke alt. Familie, venner og fritid er bare vigtigere.<br>
+                3. Vi kommer længst sammen: Jeg vil derfor altid være nysgerrig, ærlig og lydhør overfor dig.<br>
+                4. Jeg prioriterer pauser og væk fra skærmen. Både for mit helbreds skyld og for at kunne levere bedre output i mit arbejde.<br>
+                5. Jeg har respekt for at arbejde ikke er alt - hverken for dig eller mig.<br>
              </p>
 </section>
 
