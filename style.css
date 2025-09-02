@@ -361,7 +361,7 @@ ul.breadcrumbs li+li:before {
     
     .text-img-double-column {
     flex-direction: column;
-    padding: 2.5rem 2rem;
+    padding: 4rem 1.5rem;
     gap: 2rem;  
     }
 
