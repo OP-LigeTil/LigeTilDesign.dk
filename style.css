@@ -1171,4 +1171,8 @@ footer a {
         padding: 3rem 1rem;
         background-color: red;
     }
+
+    .blog-post-content h1 {
+        color: red;
+    }
 }
