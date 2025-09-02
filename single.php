@@ -1,7 +1,8 @@
 <?php get_header(); ?>
+<body>
 <main>
 <section class="blog-post-hero">
-    <img src="<?php get_the_post_thumbnail_url();?>">
+    <img src="<?php the_post_thumbnail_url();?>">
 </section>
 <section class="blog-post-content">
     <div class="blog-post-content-top">
