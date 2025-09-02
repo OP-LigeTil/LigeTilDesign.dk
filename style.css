@@ -644,13 +644,31 @@ box-shadow: 2px 9px 53px -13px rgba(0,0,0,0.26);
 
 /* Kun blog oversigten */ 
 .blog-feed-content-blog-overview { 
-    display: grid; 
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    width: 100%; 
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    /* grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); */
     grid-template-rows: 1fr;
     grid-column-gap: 1.5rem;
     grid-row-gap: 1.5rem;
 }
 
+/* Kun blog oversigten  - responsivt*/ 
+@media only screen and (max-width: 940px) {
+
+.blog-feed-content-blog-overview {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+}
+
+@media only screen and (max-width: 600px) {
+
+.blog-feed-content-blog-overview {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+}
 
 
 /* Blog bar end */
