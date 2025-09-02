@@ -540,6 +540,7 @@ nav ul {
     padding: 1rem; 
     justify-items: center;
     margin-top: -6rem auto 0 auto; 
+    text-align: center; 
 }
 
 .logobar ul {
