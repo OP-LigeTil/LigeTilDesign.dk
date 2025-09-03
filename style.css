@@ -1166,9 +1166,8 @@ footer a {
 .blog-post-content img,
 .wp-block-image img { 
   max-width: 100%;   
-  height: auto;
-  width: auto !important;              
-  text-align: center;
+  height: auto;             
+  margin: 0 auto;
 }
 
 .blog-post-content ol, .blog-post-content ul {
