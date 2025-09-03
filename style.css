@@ -1164,9 +1164,11 @@ footer a {
 }
 
 .blog-post-content img,
-.wp-block-image img {        
+.wp-block-image img { 
+  max-width: 100%;   
+  height: auto;
+  width: auto !important;              
   text-align: center;
-  border: 1px solid red;
 }
 
 .blog-post-content ol, .blog-post-content ul {
