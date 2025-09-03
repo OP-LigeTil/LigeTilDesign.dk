@@ -532,6 +532,10 @@ nav ul {
     .hero-3-content {
         max-width: 250px; 
     }
+
+    .hero-action {
+    margin-top: 2rem;
+}
 }
 
 /* Logobar */ 
