@@ -542,6 +542,7 @@ nav ul {
     .hero-action {
     margin-top: 2rem;
 }
+}
 
 @media only screen and (max-width: 500px) {
     .hero-2 {
@@ -1209,6 +1210,10 @@ footer a {
 
     .blog-post-content h1 {
         font-size: 2rem;
+    }
+    
+     .blog-post-content h2 {
+           font-size: 1.5rem;
     }
 
     .blog-post-content-top {
