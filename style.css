@@ -1170,6 +1170,12 @@ footer a {
   height: auto;
 }
 
+.blog-post-content ul li {
+    font-size: inherit;
+    color: red;
+    font-weight: 200; 
+}
+
 /* Blog post responsiv*/ 
 @media only screen and (max-width: 1300px) {
     .blog-post-content {
