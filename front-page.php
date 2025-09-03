@@ -14,7 +14,7 @@ $image_two_column = get_field('image_two_column_text_image');
         <div class="hero-1-content">
             <p><?php echo get_field('top_paragraph_front_page'); ?></p>
             <h1><?php echo get_field('headline_front_page'); ?></h1>
-            <p class="status"> Tilgængelig</p>
+            <p class="status"></p>
         </div>
         <div class="hero-action">
             <a href="/kontakt"><button class="button-primary">Kontakt</button></a>
@@ -37,7 +37,7 @@ $image_two_column = get_field('image_two_column_text_image');
 <!-- Hero end --> 
 
 <!-- Logo bar --> 
-<section class="logobar">
+<!-- Hiden logobar <section class="logobar">
     <p>Tidligere samarbejder</p>
     <ul>
         <li><img src="<?php echo get_template_directory_uri(); ?>/images/WorldinWood_logo.png" alt="Arrow"></li>
@@ -46,6 +46,7 @@ $image_two_column = get_field('image_two_column_text_image');
     </ul>
 
 </section>
+--> 
 <!-- Logo bar end -->
 
 <!-- Text section --> 
