@@ -1168,6 +1168,8 @@ footer a {
   max-width: 100%;    
   height: auto;
   width: auto; 
+  text-align: center;
+  border: 1px solid red;
 }
 
 .blog-post-content ol, .blog-post-content ul {
