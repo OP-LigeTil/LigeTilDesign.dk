@@ -41,6 +41,12 @@ section {
         margin: 0.1rem;
     }
 }
+
+@media only screen and (max-width: 500px) {
+    section {
+        margin-bottom: 4rem;
+    }
+}
 /* Generel - Text */
 
 h1 {
@@ -1176,8 +1182,12 @@ footer a {
 }
 
 @media only screen and (max-width: 500px) {
+    .blog-post-hero {
+        object-fit: cover;
+    }
+    
     .blog-post-content {
-        margin: -10rem 2rem 0 2rem;
+        margin: 0rem;
         padding: 3rem 1rem;
         align-self: center;
     }
