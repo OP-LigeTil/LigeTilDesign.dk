@@ -25,7 +25,8 @@ $image_two_column = get_field('image_two_column_text_image');
         <div class= "blog-post">
             <div class="post">
                 <a href="<?php echo get_permalink($post->ID); ?>" ><?php the_post_thumbnail(); ?></a>
-                <h3><a href="<?php echo get_permalink($post->ID); ?>" ><?php echo $post->post_title; ?></a></h3>
+                <h4><a href="<?php echo get_permalink($post->ID); ?>" ><?php echo $post->post_title; ?></a></h4>
+                <p id="blogdate"><?php echo get_the_date('d-m-Y', $post->ID); ?></p>
             </div>
         </div>
         <?php endforeach; ?>
