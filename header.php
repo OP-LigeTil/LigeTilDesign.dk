@@ -9,6 +9,7 @@
     <title>Lige Til Design 2525</title>
 </head>
 <body>
+    <?php wp_body_open(); ?>
 <header>
     <nav>
         <a href="/"><img src="http://ligetildesign.dk/wp-content/uploads/2025/08/Ligetil_ny.png"></a>
