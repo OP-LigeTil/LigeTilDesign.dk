@@ -1169,11 +1169,14 @@ footer a {
   height: auto;
 }
 
+.blog-post-content ol, .blog-post-content ul {
+    padding-left: 10rem; 
+}
+
 .blog-post-content ol li, .blog-post-content ul li {
     font-size: 1.125rem;
     line-height: 2rem;
     font-weight: 200;
-    padding-left: 1rem; 
 }
 
 /* Blog post responsiv*/ 
