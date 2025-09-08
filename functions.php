@@ -37,6 +37,7 @@ add_theme_support('post-thumbnails', array(
 'post',
 'page',
 'custom-post-type-name',
+'cases',
 ));
 
 /* Post type til cases */
@@ -67,7 +68,7 @@ function cases_taxonomy() {
         'hierarchical' => true,
     );
 
-    register_taxonomy('type', 'cases', $args);
+    register_taxonomy('type', array('cases'), $args);
 }
 
 add_action('init', 'cases_taxonomy');
