@@ -85,18 +85,12 @@ $image_two_column = get_field('image_two_column_text_image');
 <section class="content-template-LigeTil">
     <div class="text-content-template-LigeTil">
         <div>
-            <h4>Resultatet</h4>
+            <h4><?php echo get_field('tag_3-case'); ?></h4>
             <br>
-            <h2>Mobilvenligt, brugervenligt, systemvenligt</h2>
+            <h2><?php echo get_field('headline_3-case'); ?></h2>
         </div>
         <div class="paragraph-content-template-LigeTil">
-            <p>Outputtet på opgaven blev:</p>
-            <ul>
-                <li>Definition af administrative brugertyper, der gik fra 2 til 3</li>
-                <li>Nyt dashboard/forside med de vigtigste funktioner fremhævet og alle overordnede sider vist frem i sidebaren</li>
-                <li>Ca. 20 sider designet til desktop og ca. 5 sider designet til mobile </li>
-                <li>2 mobiloptimerede landingsider med hver deres designstil og opdaterede content</p>
-            </ul>
+            <p><?php echo get_field('paragraph_3-case'); ?></p>
         </div> 
     </div>
 
