@@ -69,22 +69,12 @@ $image_two_column = get_field('image_two_column_text_image');
 <section class="two-column-content-template-LigeTil">
     <div class="text-two-column-template-LigeTil">
         <div>
-            <h4>Processen</h4>
+            <h4><?php echo get_field('tag_2-case'); ?></h4>
             <br>
-            <h2>Brugertests og bedre design</h2>
+            <h2><?php echo get_field('headline_2-case'); ?></h2>
         </div>
         <div class="paragraph-content-template-LigeTil">
-            <p>I samarbejde med LikeMinded holdet, definerede vi de vigste nøglesider for slutbrugerne. Herefter foretog jeg et ekspert review af nøglesiderne på mobilstørrelse og noterede steder, hvor brugerrejsen var uklar eller mangelfuld.</p>  
-            <p>Derefter lavede jeg redesigns i Figma for hver aftalte nøgleside. Cards, knapper og andre komponenter blev bygget, navngivet og gemt i et designsystem. I den denne fase definerede jeg også nye farver for cards, baggrund og tekster, der alle overholdte WCAG 2.1 retningslinjerne for webtilgængelighed.</p> 
-            <p>Herfra gik jeg ind i en iterativ arbejdsfase, hvor jeg:</p>
-        <ul>
-            <li>Foretog 2 brugertest med personer, der var indenfor LikeMindeds definerede målgruppe </li>
-            <li>Justerede designet på baggrund af brugertestene</li>
-            <li>Præsenterede designet for LikeMinded og indsigterne fra brugertestene</li>
-            <li>Justerede designet på baggrund af LikeMindeds inputs</li>
-            <li>Foretog 1 brugertest mere og foretog mindre ændringer i designet på baggrund af denne</li>
-        </ul>
-            <p>Afslutningsvis tog jeg en dialog med LikeMindeds udvikler omkring designet, og lavede en endelig overlevering til LikeMinded.</p>
+            <p><?php echo get_field('paragraph_2-case'); ?></p>
         </div> 
     </div>
     <div class= "image-two-column-template-LigeTil">
