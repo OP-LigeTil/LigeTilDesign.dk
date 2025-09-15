@@ -54,14 +54,11 @@ $image_two_column = get_field('image_two_column_text_image');
 <section class="content-template-LigeTil">
     <div class="text-content-template-LigeTil">
         <div>
-            <h4>Opgaven</h4>
+            <h4><?php echo get_field('tag_1-case'); ?></h4>
             <br>
-            <h2>Startup, der ville godt fra start</h2>
+            <h2><?php echo get_field('headline_1-case'); ?></h2>
         </div>
-        <p>Holdet bag LikeMinded ville være sikre på, at LikeMinded som platform kom godt fra start ved launch. Derfor ønskede de et kritisk UX blik på nøglesider på platformen bl.a. Butikkernes unikke landingside, landingside med tilbud og ‘marketplace’ siden. 
-        <br>
-        <br>
-        Min opgave var derfor at optimere brugeroplevelsen for slutkunderne. Jo bedre en oplevelse, jo større sandsynlighed for at slutbrugerne vil bruge platformen og i sidste ende foretage køb blandt butikkerne på LikeMinded.</p>
+        <p><?php echo get_field('paragraph_1-case'); ?></p>
     </div>
 <div class="image-gallery-two">
     <img src="<?php echo get_template_directory_uri(); ?>/images/pexels-mikhail-nilov-8284721.jpg">
