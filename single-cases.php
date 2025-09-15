@@ -105,11 +105,9 @@ $image_two_column = get_field('image_two_column_text_image');
 <!-- Text section two column --> 
 <section class = "text-img-double-column">
         <div class= "first-text-img-double-column">
-            <h2>Om LikeMinded</h2>
-            <p>LikeMinded er den “digitale arm” til mindre, lokale butikker. Mange butiksejere åbner deres butik, fordi de brænder for et kreativt håndværk, unikt mad eller lignende interesser. De færreste er interesserede i at skulle holde en hjemmeside opdateret eller lave indhold til SoMe, selvom det vil kunne give flere kunder i butikken. </p>
-            <br>
-            <p>Her er LikeMinded en oplagt løsning. Platformen samler alle mindre butikker ét sted, og gør det let for brugere at udforske tilbud og foretage click and collect køb. </p>
-        <button class="button-secondary">Besøg LikeMinded</button>
+            <h2><?php echo get_field('om_headline-case'); ?></h2>
+            <p><?php echo get_field('om_paragraph-case'); ?></p>
+        <button class="button-secondary"><?php echo get_field('om_link-case'); ?></button>
         </div>
         <div class="second-text-img-double-column">
             <img src="<?php echo get_template_directory_uri(); ?>/images/pexels-mikhail-nilov-8284721.jpg">
