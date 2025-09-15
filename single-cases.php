@@ -69,8 +69,8 @@ $image_two_column = get_field('image_two_column_text_image');
 </div>
 </section>
 
-<section class="content-template-LigeTil">
-    <div class="text-content-template-LigeTil">
+<section class="two-column-content-template-LigeTil">
+    <div class="text-two-column-template-LigeTil">
         <div>
             <h4>Processen</h4>
             <br>
@@ -90,11 +90,9 @@ $image_two_column = get_field('image_two_column_text_image');
             <p>Afslutningsvis tog jeg en dialog med LikeMindeds udvikler omkring designet, og lavede en endelig overlevering til LikeMinded.</p>
         </div> 
     </div>
-
-<div class="case-post-image-full-width-lower-height">
-    <img src="<?php echo get_template_directory_uri(); ?>/images/pexels-mikhail-nilov-8284721.jpg">
-</div>
-
+    <div class= "image-two-column-template-LigeTil">
+        <img src="<?php echo get_template_directory_uri(); ?>/images/pexels-mikhail-nilov-8284721.jpg">
+    </div>
 </section>
 
 <section class="content-template-LigeTil">
