@@ -48,8 +48,13 @@ $image_two_column = get_field('image_two_column_text_image');
     </div>
 </div>
 <section class="case-post-image-full-width">
-    <img src="<?php echo get_template_directory_uri(); ?>/images/pexels-mikhail-nilov-8284721.jpg">
-        <ul>
+
+    <img><?php 
+$image = get_field('hero_img-case');
+if( !empty( $image ) ): ?>
+    <img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" />
+<?php endif; ?></img>
+
 </section>
 <section class="content-template-LigeTil">
     <div class="text-content-template-LigeTil">
