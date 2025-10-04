@@ -32,7 +32,7 @@ $image_two_column = get_field('image_two_column_text_image');
     </div>
     <div>
         <p><strong>Service</strong></p>
-        <?php the_tags( '', ', ', '' ); ?>
+        <?php the_category(', '); ?>
         <ul>
             <li>#UI design</li>
             <li>#User experience</li>
