@@ -40,7 +40,7 @@ $image_two_column = get_field('image_two_column_text_image');
     </div>
     <div class="case-post-TOC">
         <ul>
-            <li >Opgaven</li>
+            <li>Opgaven</li>
             <li>Processen</li>
             <li>Resultater</li>
             <li>Om LikeMinded</li>
@@ -53,7 +53,7 @@ $image_two_column = get_field('image_two_column_text_image');
 $image = get_field('hero_img-case');
 if( !empty( $image ) ): ?>
     <img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" />
-<?php endif; ?></img>
+<?php endif; ?>
 
 </section>
 <section class="content-template-LigeTil">
