@@ -988,7 +988,7 @@ footer a {
 
 .case-post-TOC {
     margin-top: 2rem;
-    text-style: none; 
+    text-decoration: none;
 }
 
 .case-post-TOC ul {
