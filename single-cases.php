@@ -52,7 +52,7 @@ $image_two_column = get_field('image_two_column_text_image');
     <img><?php 
 $image = get_field('hero_img-case');
 if( !empty( $image ) ): ?>
-    <img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" />
+    <img id="case-img" src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" />
 <?php endif; ?>
 
 </section>
@@ -89,15 +89,15 @@ if( !empty( $image ) ): ?>
 <section>
     <div class="image-gallery-two">
         <img><?php 
-$image = get_field('hero_img-case');
+$image = get_field('two_colm_only_img_1-case');
 if( !empty( $image ) ): ?>
     <img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" />
-<?php endif; ?></img>
+<?php endif; ?></>
     <img><?php 
-$image = get_field('hero_img-case');
+$image = get_field('two_colm_only_img_2-case');
 if( !empty( $image ) ): ?>
     <img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" />
-<?php endif; ?></img>
+<?php endif; ?></>
 </div>
 </section>
 
