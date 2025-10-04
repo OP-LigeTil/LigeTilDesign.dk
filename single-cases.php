@@ -41,9 +41,9 @@ $image_two_column = get_field('image_two_column_text_image');
     <div class="case-post-TOC">
         <ul>
             <li><a href="#opgaven">Opgaven</a></li>
-            <li>Processen</li>
-            <li>Resultater</li>
-            <li>Om LikeMinded</li>
+            <li><a href="#processen">Processen</a></li>
+            <li><a href="#resultater">Resultater</a></li>
+            <li><a href="#om">Om LikeMinded</a></li>
         </ul>
     </div>
 </div>
@@ -69,7 +69,7 @@ if( !empty( $image ) ): ?>
 
 <section class="two-column-content-template-LigeTil">
     <div class="text-two-column-template-LigeTil">
-        <div>
+        <div id="processen">
             <h4><?php echo get_field('tag_2-case'); ?></h4>
             <br>
             <h2><?php echo get_field('headline_2-case'); ?></h2>
@@ -103,7 +103,7 @@ if( !empty( $image ) ): ?>
 
 <section class="content-template-LigeTil">
     <div class="text-content-template-LigeTil">
-        <div>
+        <div id="resultater">
             <h4><?php echo get_field('tag_3-case'); ?></h4>
             <br>
             <h2><?php echo get_field('headline_3-case'); ?></h2>
@@ -136,7 +136,7 @@ if( !empty( $image ) ): ?>
 <!-- Text section two column --> 
 <section class = "text-img-double-column">
         <div class= "first-text-img-double-column">
-            <h2><?php echo get_field('om_headline-case'); ?></h2>
+            <h2 id="om"><?php echo get_field('om_headline-case'); ?></h2>
             <p><?php echo get_field('om_paragraph-case'); ?></p>
         <button class="button-secondary"><?php echo get_field('om_link-case'); ?></button>
         </div>
