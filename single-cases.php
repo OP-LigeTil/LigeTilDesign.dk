@@ -88,12 +88,12 @@ if( !empty( $image ) ): ?>
 
 <section>
     <div class="image-gallery-two">
-        <img><?php 
+        <<?php 
 $image = get_field('two_colm_only_img_1-case');
 if( !empty( $image ) ): ?>
     <img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" />
 <?php endif; ?></>
-    <img><?php 
+    <<?php 
 $image = get_field('two_colm_only_img_2-case');
 if( !empty( $image ) ): ?>
     <img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" />
