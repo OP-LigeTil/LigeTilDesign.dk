@@ -28,11 +28,10 @@ $image_two_column = get_field('image_two_column_text_image');
     <div class="case-info">
         <p><strong>Kunde</strong><br><?php echo get_field('client-case'); ?></p>
         <br>
-        <p><strong>Industri</strong><br>Ecommerce</p>
+        <p><strong>Industri</strong><br><?php echo get_field('industry-case'); ?></p>
     </div>
     <div>
         <p><strong>Service</strong></p>
-        <?php the_category(', '); ?>
         <ul>
             <li>#UI design</li>
             <li>#User experience</li>
