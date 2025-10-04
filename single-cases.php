@@ -32,6 +32,7 @@ $image_two_column = get_field('image_two_column_text_image');
     </div>
     <div>
         <p><strong>Service</strong></p>
+        <?php the_tags( '', ', ', '' ); ?>
         <ul>
             <li>#UI design</li>
             <li>#User experience</li>
@@ -43,7 +44,7 @@ $image_two_column = get_field('image_two_column_text_image');
             <li><a href="#opgaven">Opgaven</a></li>
             <li><a href="#processen">Processen</a></li>
             <li><a href="#resultater">Resultater</a></li>
-            <li><a href="#om">Om LikeMinded</a></li>
+            <li><a href="#om">Om casen</a></li>
         </ul>
     </div>
 </div>
