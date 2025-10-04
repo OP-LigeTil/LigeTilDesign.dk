@@ -78,7 +78,7 @@ if( !empty( $image ) ): ?>
             <p><?php echo get_field('paragraph_2-case'); ?></p>
         </div> 
     </div>
-    <img><?php 
+    <?php 
 $image = get_field('two_colm_img-case');
 if( !empty( $image ) ): ?>
     <img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" />
