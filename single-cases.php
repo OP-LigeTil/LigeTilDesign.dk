@@ -26,7 +26,7 @@ $image_two_column = get_field('image_two_column_text_image');
         <h1><?php the_title(); ?></h1>
     </div>
     <div class="case-info">
-        <p><strong>Kunde</strong><br>LikeMinded</p>
+        <p><strong>Kunde</strong><br><?php echo get_field('client-case'); ?></p>
         <br>
         <p><strong>Industri</strong><br>Ecommerce</p>
     </div>
