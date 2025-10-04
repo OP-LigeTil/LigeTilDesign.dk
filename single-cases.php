@@ -92,12 +92,12 @@ if( !empty( $image ) ): ?>
 $image = get_field('two_colm_only_img_1-case');
 if( !empty( $image ) ): ?>
     <img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" />
-<?php endif; ?></>
+<?php endif; ?>
     <?php 
 $image = get_field('two_colm_only_img_2-case');
 if( !empty( $image ) ): ?>
     <img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" />
-<?php endif; ?></>
+<?php endif; ?>
 </div>
 </section>
 
@@ -114,9 +114,21 @@ if( !empty( $image ) ): ?>
     </div>
 
 <div class="image-gallery-three">
-    <img src="<?php echo get_template_directory_uri(); ?>/images/pexels-mikhail-nilov-8284721.jpg">
-    <img src="<?php echo get_template_directory_uri(); ?>/images/pexels-mikhail-nilov-8284721.jpg">
-    <img src="<?php echo get_template_directory_uri(); ?>/images/pexels-mikhail-nilov-8284721.jpg">
+    <?php 
+$image = get_field('gallery_image_1-case');
+if( !empty( $image ) ): ?>
+    <img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" />
+<?php endif; ?>
+<?php 
+$image = get_field('gallery_image_2-case');
+if( !empty( $image ) ): ?>
+    <img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" />
+<?php endif; ?>
+<?php 
+$image = get_field('gallery_image_3-case');
+if( !empty( $image ) ): ?>
+    <img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" />
+<?php endif; ?>
 
 </div>
 
