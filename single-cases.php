@@ -79,6 +79,7 @@ if( !empty( $image ) ): ?>
             <p><?php echo get_field('paragraph_2-case'); ?></p>
         </div> 
     </div>
+    <div>
     <?php 
 $image = get_field('two_colm_img-case');
 if( !empty( $image ) ): ?>
