@@ -312,11 +312,10 @@ ul.breadcrumbs li+li:before {
     flex-direction: row;  
     gap: 2rem;
     align-content: center; 
-    background-color: red;
 }
 
 two-column-content-template-LigeTil img {
-    width: 50%;
+    width: 40%;
     height: auto;
 }
 
