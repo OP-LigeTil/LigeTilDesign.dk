@@ -65,10 +65,6 @@ if( !empty( $image ) ): ?>
         </div>
         <p><?php echo get_field('paragraph_1-case'); ?></p>
     </div>
-<div class="image-gallery-two">
-    <img src="<?php echo get_template_directory_uri(); ?>/images/pexels-mikhail-nilov-8284721.jpg">
-    <img src="<?php echo get_template_directory_uri(); ?>/images/pexels-mikhail-nilov-8284721.jpg">
-</div>
 </section>
 
 <section class="two-column-content-template-LigeTil">
@@ -82,9 +78,27 @@ if( !empty( $image ) ): ?>
             <p><?php echo get_field('paragraph_2-case'); ?></p>
         </div> 
     </div>
-    <div class= "image-two-column-template-LigeTil">
-        <img src="<?php echo get_template_directory_uri(); ?>/images/pexels-mikhail-nilov-8284721.jpg">
+    <img><?php 
+$image = get_field('two_colm_img-case');
+if( !empty( $image ) ): ?>
+    <img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" />
+<?php endif; ?></img>
     </div>
+</section>
+
+<section>
+    <div class="image-gallery-two">
+        <img><?php 
+$image = get_field('hero_img-case');
+if( !empty( $image ) ): ?>
+    <img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" />
+<?php endif; ?></img>
+    <img><?php 
+$image = get_field('hero_img-case');
+if( !empty( $image ) ): ?>
+    <img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" />
+<?php endif; ?></img>
+</div>
 </section>
 
 <section class="content-template-LigeTil">
