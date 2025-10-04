@@ -40,7 +40,7 @@ $image_two_column = get_field('image_two_column_text_image');
     </div>
     <div class="case-post-TOC">
         <ul>
-            <li>Opgaven</li>
+            <li><a href="#opgaven">Opgaven</a></li>
             <li>Processen</li>
             <li>Resultater</li>
             <li>Om LikeMinded</li>
@@ -58,7 +58,7 @@ if( !empty( $image ) ): ?>
 </section>
 <section class="content-template-LigeTil">
     <div class="text-content-template-LigeTil">
-        <div>
+        <div id="opgaven">
             <h4><?php echo get_field('tag_1-case'); ?></h4>
             <br>
             <h2><?php echo get_field('headline_1-case'); ?></h2>
