@@ -1004,7 +1004,7 @@ footer a {
 
 .case-post-image-full-width {
     max-height: 500px;
-    object-fit: fill;
+    object-fit: cover;
     overflow: hidden; 
     border-radius: 1rem;
     border: 1px solid red; 
