@@ -63,6 +63,7 @@ if( !empty( $image ) ): ?>
             <br>
             <h2><?php echo get_field('headline_1-case'); ?></h2>
         </div>
+        <div class="paragraph-content-template-LigeTil">
         <p><?php echo get_field('paragraph_1-case'); ?></p>
     </div>
 </section>
