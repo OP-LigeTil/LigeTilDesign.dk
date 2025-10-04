@@ -81,8 +81,8 @@ if( !empty( $image ) ): ?>
     <?php 
 $image = get_field('two_colm_img-case');
 if( !empty( $image ) ): ?>
-    <img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" />
-<?php endif; ?></img>
+    <img id="case-img" src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" />
+<?php endif; ?></>
     </div>
 </section>
 
