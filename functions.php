@@ -72,3 +72,11 @@ function cases_taxonomy() {
 }
 
 add_action('init', 'cases_taxonomy');
+
+// Enable automatic paragraph formatting for ACF content
+function enable_wpautop_for_acf() {
+    // Apply wpautop to ACF content fields
+    add_filter('acf/format_value/type=wysiwyg', 'wpautop');
+    add_filter('acf/format_value/type=textarea', 'wpautop');
+}
+add_action('acf/init', 'enable_wpautop_for_acf');

@@ -1199,10 +1199,6 @@ footer a {
     margin-top: -20rem;
 }
 
-.blog-post-content p + p {
-    margin-top: 1.5rem; /* Add spacing between paragraphs */
-}
-
 .blog-post-content-top {
     text-align: center;
 }
