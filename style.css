@@ -314,6 +314,11 @@ ul.breadcrumbs li+li:before {
     align-content: center; 
 }
 
+two-column-content-template-LigeTil img {
+    width: 50%;
+    height: auto;
+}
+
 .text-two-column-template-LigeTil {
     width: 60%;
     padding: 4rem;
