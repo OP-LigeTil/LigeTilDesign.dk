@@ -182,6 +182,9 @@ p {
     background-color: #121283;
     color: white;
 }
+.button-secondary a {
+    text-decoration: none;
+}
 
 .button-menu {
     background-color: none;
