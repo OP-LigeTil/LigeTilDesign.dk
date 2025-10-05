@@ -32,15 +32,7 @@ $image_two_column = get_field('image_two_column_text_image');
     </div>
     <div>
         <p><strong>Service</strong></p>
-        <?php 
-        $tags = get_the_tags(); 
-        <?php if ( $tags ) {
-            foreach ( $tags as $tag ) {
-                echo $tag->name . ' '; 
-            }
-        }
-        ;?>
-        ;?>  
+        <p><?php echo get_type terms( $post->ID, 'type' ); ?></p>
     </div>
     </div>
     <div class="case-post-TOC">
