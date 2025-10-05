@@ -147,7 +147,18 @@ if( !empty( $image ) ): ?>
         <div class= "first-text-img-double-column">
             <h2 id="om"><?php echo get_field('om_headline-case'); ?></h2>
             <p><?php echo get_field('om_paragraph-case'); ?></p>
-        <button class="button-secondary"><?php echo get_field('om_link-case'); ?></button>
+        <button class="button-secondary">
+    <?php 
+$link = get_field('om_link-case');
+if ($link) : ?>
+    <a href="<?php echo esc_url($link['url']); ?>" 
+       <?php echo $link['target'] ? 'target="' . esc_attr($link['target']) . '"' : ''; ?>>
+        <?php echo esc_html($link['title']); ?>
+    </a>
+<?php endif; ?>
+    
+    
+    </button>
         </div>
         <div class="second-text-img-double-column">
             <img src="<?php echo get_template_directory_uri(); ?>/images/pexels-mikhail-nilov-8284721.jpg">
