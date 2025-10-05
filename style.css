@@ -429,7 +429,8 @@ two-column-content-template-LigeTil img {
     }
 
     .first-text-img-double-column {
-        width: 100%; 
+        width: 100%;
+        background-color: red; 
     }
 
     .second-text-img-double-column {
