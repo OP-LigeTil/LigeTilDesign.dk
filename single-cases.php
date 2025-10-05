@@ -39,6 +39,8 @@ $image_two_column = get_field('image_two_column_text_image');
                 echo $tag->name . ' '; 
             }
         }
+        ;?>
+        ;?>  
     </div>
     </div>
     <div class="case-post-TOC">
