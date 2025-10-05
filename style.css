@@ -8,6 +8,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 img {
@@ -1000,7 +1001,6 @@ footer a {
     color: #919191;
     font-weight: 200;
     text-decoration: none;
-    scroll-behavior: smooth;
 }
 
 .case-post-TOC ul li a:hover {
