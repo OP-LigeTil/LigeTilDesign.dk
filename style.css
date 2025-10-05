@@ -182,8 +182,14 @@ p {
     background-color: #121283;
     color: white;
 }
+
 .button-secondary a {
     text-decoration: none;
+    color: #121212;
+}
+
+.button-secondary a:hover {
+    color: white;
 }
 
 .button-menu {
