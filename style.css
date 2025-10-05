@@ -995,13 +995,13 @@ footer a {
     display: flex; 
 }
 
-.case-post-TOC ul li {
+.case-post-TOC ul li a {
     padding-right: 1rem;
     color: #919191;
     font-weight: 200;
 }
 
-.case-post-TOC ul li:hover {
+.case-post-TOC ul li a:hover {
     padding-right: 1rem;
     color: #0c1efb;
     cursor: pointer; 
