@@ -32,7 +32,17 @@ $image_two_column = get_field('image_two_column_text_image');
     </div>
     <div>
         <p><strong>Service</strong></p>
-        <p><?php echo get_type terms( $post->ID, 'type' ); ?></p>
+        <?php
+$types = get_the_terms(get_the_ID(), 'type');
+
+if ($types && !is_wp_error($types)) {
+    echo '<ul class="case-types">';
+    foreach ($types as $type) {
+        echo '<li>' . esc_html($type->name) . '</li>';
+    }
+    echo '</ul>';
+}
+?>
     </div>
     </div>
     <div class="case-post-TOC">
