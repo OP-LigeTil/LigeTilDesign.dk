@@ -999,6 +999,7 @@ footer a {
     padding-right: 1rem;
     color: #919191;
     font-weight: 200;
+    text-decoration: none;
 }
 
 .case-post-TOC ul li a:hover {
