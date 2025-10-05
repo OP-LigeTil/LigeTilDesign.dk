@@ -431,11 +431,7 @@ two-column-content-template-LigeTil img {
     .first-text-img-double-column {
         width: 100%;
         align-self: left;
-        gap: 1rem;
-    }
-
-    .first-text-img-double-column p {
-        margin-bottom: 10rem;
+        gap: 10rem;
     }
 
     .second-text-img-double-column {
