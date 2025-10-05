@@ -429,6 +429,8 @@ two-column-content-template-LigeTil img {
     }
 
     .first-text-img-double-column {
+        width: 100%;
+        justify-content: flex-start;
         background-color: red; 
     }
 
