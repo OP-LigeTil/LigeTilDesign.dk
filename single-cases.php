@@ -32,10 +32,13 @@ $image_two_column = get_field('image_two_column_text_image');
     </div>
     <div>
         <p><strong>Service</strong></p>
-        <ul>
-            <li>#UI design</li>
-            <li>#User experience</li>
-        </ul> 
+        <?php 
+        $tags = get_the_tags(); 
+        <?php if ( $tags ) {
+            foreach ( $tags as $tag ) {
+                echo $tag->name . ' '; 
+            }
+        }
     </div>
     </div>
     <div class="case-post-TOC">
