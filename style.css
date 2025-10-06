@@ -1026,7 +1026,7 @@ footer a {
 
 .case-post-image-full-width {
     max-height: 500px;
-    object-fit: cover;
+    object-fit: fill;
     overflow: hidden; 
     border: 1px solid red; 
 }
