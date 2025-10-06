@@ -396,6 +396,10 @@ two-column-content-template-LigeTil img {
     color: white; 
 }
 
+.text-img-double-column p + p {
+    margin-top: 1rem; 
+}
+
 .first-text-img-double-column {
     width: 60%;
     max-width: 600px; 
