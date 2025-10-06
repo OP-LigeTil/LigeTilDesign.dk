@@ -1028,7 +1028,7 @@ footer a {
     max-height: 500px;
     object-fit: fill;
     overflow: hidden; 
-    border: 1px solid red; 
+    border-radius: 0.5rem; 
 }
 
 /* Case gallery */ 
