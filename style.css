@@ -303,6 +303,7 @@ ul.breadcrumbs li+li:before {
 }
 
 .paragraph-content-template-LigeTil {
+    max-width: 750px;
     display: flex;
     flex-direction: column;
     gap: 1rem; 
