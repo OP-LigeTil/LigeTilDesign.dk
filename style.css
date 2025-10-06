@@ -431,7 +431,6 @@ two-column-content-template-LigeTil img {
     .first-text-img-double-column {
         width: 100%;
         align-self: left;
-        gap: 10rem;
     }
 
     .second-text-img-double-column {
@@ -1075,7 +1074,7 @@ footer a {
     .image-gallery-three {
         width: 100%;
         display: grid; 
-        grid-template-columns: repeat(1, 1fr);
+        grid-template-columns: repeat(2, 1fr);
     }
 }
 
