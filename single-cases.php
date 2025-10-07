@@ -110,6 +110,16 @@ if( !empty( $image ) ): ?>
     </div>
 </section>
 
+<section class="case-post-image-full-width">
+
+    <img><?php 
+$image = get_field('big_img-case');
+if( !empty( $image ) ): ?>
+    <img id="case-img" src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" />
+<?php endif; ?>
+
+</section>
+
 <section class="content-template-LigeTil">
     <div class="text-content-template-LigeTil">
         <div id="resultater">
