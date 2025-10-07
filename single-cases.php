@@ -75,6 +75,21 @@ if( !empty( $image ) ): ?>
     </div>
 </section>
 
+<section>
+    <div class="image-gallery-two">
+        <?php 
+$image = get_field('two_colm_only_img_1-case');
+if( !empty( $image ) ): ?>
+    <img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" />
+<?php endif; ?>
+    <?php 
+$image = get_field('two_colm_only_img_2-case');
+if( !empty( $image ) ): ?>
+    <img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" />
+<?php endif; ?>
+</div>
+</section>
+
 <section class="two-column-content-template-LigeTil">
     <div class="text-two-column-template-LigeTil">
         <div id="processen">
@@ -93,21 +108,6 @@ if( !empty( $image ) ): ?>
     <img id="case-img" src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" />
 <?php endif; ?></>
     </div>
-</section>
-
-<section>
-    <div class="image-gallery-two">
-        <?php 
-$image = get_field('two_colm_only_img_1-case');
-if( !empty( $image ) ): ?>
-    <img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" />
-<?php endif; ?>
-    <?php 
-$image = get_field('two_colm_only_img_2-case');
-if( !empty( $image ) ): ?>
-    <img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" />
-<?php endif; ?>
-</div>
 </section>
 
 <section class="content-template-LigeTil">
