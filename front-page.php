@@ -25,11 +25,10 @@ $image_two_column = get_field('image_two_column_text_image');
             <h2>Om mig</h2>
             <a href ="/om-lige-til-design", target="_self"><button class="button-circle"><img src="https://ligetildesign.dk/wp-content/uploads/2025/08/Icon-arrow.png" alt="Arrow"></button></a>
     </div>
-    <div class="hero-3">
+    <div class="hero-3" onclick="window.location.href='/cases'" target="_self">>
             <div class="hero-3-content">
                 <h2>Cases</h2>
-                <p><em>Kommer snart</em></p>
-            </div>
+            </div> 
             <button class="button-circle"><img src="https://ligetildesign.dk/wp-content/uploads/2025/08/Icon-arrow.png" alt="Arrow"></button>
     </div>
     </div>
