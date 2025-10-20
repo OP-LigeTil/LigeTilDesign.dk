@@ -166,12 +166,14 @@ if ($link) : ?>
         <?php echo esc_html($link['title']); ?>
     </a>
 <?php endif; ?>
-    
-    
     </button>
         </div>
         <div class="second-text-img-double-column">
-            <img src="<?php echo get_template_directory_uri(); ?>/images/pexels-mikhail-nilov-8284721.jpg">
+            <?php 
+$image = get_field('double_column_image-case');
+if( !empty( $image ) ): ?>
+    <img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" />
+<?php endif; ?>
         </div>
 </section>
 
