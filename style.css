@@ -1343,10 +1343,7 @@ footer a {
 /* Cases oversigt */ 
 .case-feed {
     margin-top:1rem;
-    display: grid; 
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    grid-column-gap: 1rem;
-    grid-row-gap: 1rem;   
+    display: flex;   
 }
 
 .case-post {
