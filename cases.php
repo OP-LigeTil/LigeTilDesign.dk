@@ -15,6 +15,7 @@ Brugers til oevrsigt over cases
 
 <!-- Cases feed -->
  <section class="case-feed">
+    <div class="case-feed-content-overview">
     <div>
         <?php $posts = get_posts(array(
             'numberposts' => -1,
@@ -31,8 +32,10 @@ Brugers til oevrsigt over cases
                 <h3><a href="<?php echo get_permalink($post->ID); ?>" ><?php echo $post->post_title; ?></a></h3>
             </div>
         </div>
+        </div>
         <?php endforeach; ?>
         <?php endif; ?>
+    </div>
     </div>
 </section> 
 
