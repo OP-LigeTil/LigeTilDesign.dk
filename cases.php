@@ -16,7 +16,6 @@ Brugers til oevrsigt over cases
 <!-- Cases feed -->
  <section class="case-feed">
     <div class="case-feed-content-overview">
-    <div>
         <?php $posts = get_posts(array(
             'numberposts' => -1,
             'post_type' => 'cases',
