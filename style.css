@@ -1347,8 +1347,9 @@ footer a {
 
 .case-feed-content-overview {
     display: grid;  
-    grid-template-columns: repeat(3, 400px);
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
     grid-column-gap: 1rem;
+    
 }
 
 .case-post { 
