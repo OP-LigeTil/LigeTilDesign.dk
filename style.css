@@ -1346,9 +1346,9 @@ footer a {
 }
 
 .case-feed-content-overview {
-    display: flex;   
+    display: grid;  
+    grid-template-columns: repeat(3, 400px);
 }
-
 
 .case-post { 
     background-color: white;
@@ -1372,8 +1372,4 @@ footer a {
 .case-post a {
     text-decoration: none;
     color: #121212;
-}
-
-#caseinfo{
-    font-size: rem;
 }
