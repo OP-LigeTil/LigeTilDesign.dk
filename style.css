@@ -296,7 +296,7 @@ ul.breadcrumbs li+li:before {
     width: 100%;
     min-height: 250px;
     display: flex; 
-    padding: 4rem;
+    padding: 0 4rem 0 4rem;
     margin: 0; 
     border-radius: 1rem;
     background-color: #FDFDFD;
