@@ -317,7 +317,7 @@ ul.breadcrumbs li+li:before {
 }
 
 .paragraph-content-template-LigeTil p {
-    margin-top: -1rem;
+    margin-top: -0.5rem;
 }
 
 /* two column template */
