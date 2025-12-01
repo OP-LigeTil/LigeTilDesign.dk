@@ -31,7 +31,7 @@ $image_two_column = get_field('image_two_column_text_image');
 </div>
 </section>
 <section class="highlighted-text">
-    <h3><?php the_field('highlighted_text'); ?></h3>
+    <h3>Her får du ikke mock-up af muleposer og kaffekopper, men design du reelt kan bruge.</h3>
 </section>
 
 <section class = "text-img-double-column">
