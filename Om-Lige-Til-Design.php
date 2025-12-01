@@ -20,7 +20,7 @@ $image_two_column = get_field('image_two_column_text_image');
     <div class="text-content-template-LigeTil">
         <h2><?php the_field('h2_first_section'); ?> </h2>
     <div class="paragraph-content-template-LigeTil">
-        <p><?php the_field('paragraph_first_section'); ?> </p>
+        <div><?php the_field('paragraph_first_section'); ?> </div>
     </div>
     </div>
 <div class="text-content-template-LigeTil">
