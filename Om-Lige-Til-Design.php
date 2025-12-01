@@ -25,7 +25,9 @@ $image_two_column = get_field('image_two_column_text_image');
     </div>
 <div class="text-content-template-LigeTil">
     <h2><?php the_field('h2_second_section'); ?> </h2>
-    <p><?php the_field('paragraph_second_section'); ?> </p>
+    <div class="paragraph-content-template-LigeTil">
+        <p><?php the_field('paragraph_second_section'); ?> </p>
+    </div>
 </div>
 </section>
 <section class="highlighted-text">
