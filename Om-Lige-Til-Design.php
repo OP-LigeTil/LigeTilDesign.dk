@@ -17,9 +17,11 @@ $image_two_column = get_field('image_two_column_text_image');
     <h2><?php the_field('Hero_H2'); ?> </h2>
 </div>
 <section class="content-template-LigeTil">
-    <div class="paragraph-content-template-LigeTil">
+    <div class="text-content-template-LigeTil">
         <h2><?php the_field('h2_first_section'); ?> </h2>
+    <div class="paragraph-content-template-LigeTil">
         <p><?php the_field('paragraph_first_section'); ?> </p>
+    </div>
     </div>
 <div class="text-content-template-LigeTil">
     <h2><?php the_field('h2_second_section'); ?> </h2>
