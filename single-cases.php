@@ -63,7 +63,7 @@ if( !empty( $image ) ): ?>
 <?php endif; ?>
 
 </section>
-<section class="text-content-template-LigeTil">
+<section class="content-template-LigeTil">
     <div class="text-content-template-LigeTil">
         <div id="opgaven">
             <h4><?php echo get_field('tag_1-case'); ?></h4>
